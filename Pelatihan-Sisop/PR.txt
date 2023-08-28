@@ -1,0 +1,2117 @@
+┌──(ikktaa㉿Ikktaa)-[~]
+└─$ ls
+Desktop  Documents  Downloads  Music  Pictures  Public  Templates  Videos  ilovelinux  snap
+                                                                                                                   
+┌──(ikktaa㉿Ikktaa)-[~]
+└─$ cd Downloads                  
+                                                                                                                   
+┌──(ikktaa㉿Ikktaa)-[~/Downloads]
+└─$ ls
+'01_Introduction to Database System(1).pptx'   02_ERD.pptx      myits-vpn-28082023-093159.zip
+'01_Introduction to Database System.pptx'      5027221052.png
+                                                                                                                   
+┌──(ikktaa㉿Ikktaa)-[~/Downloads]
+└─$ mkdir ilovelinux
+                                                                                                                   
+┌──(ikktaa㉿Ikktaa)-[~/Downloads]
+└─$ cd ilovelinux
+                                                                                                                   
+┌──(ikktaa㉿Ikktaa)-[~/Downloads/ilovelinux]
+└─$ wget http://10.199.16.188:7331/file.txt                                          
+--2023-08-28 21:39:16--  http://10.199.16.188:7331/file.txt
+Connecting to 10.199.16.188:7331... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 37 [text/plain]
+Saving to: ‘file.txt’
+
+file.txt                     100%[=============================================>]      37  --.-KB/s    in 0s      
+
+2023-08-28 21:39:18 (1.68 MB/s) - ‘file.txt’ saved [37/37]
+
+                                                                                                                   
+┌──(ikktaa㉿Ikktaa)-[~/Downloads/ilovelinux]
+└─$ cat file.txt 
+5bda90afcfd344fa33b8b33580cdbe7b.zip
+                                                                                                                   
+┌──(ikktaa㉿Ikktaa)-[~/Downloads/ilovelinux]
+└─$ unzip 5bda90afcfd344fa33b8b33580cdbe7b.zip
+unzip:  cannot find or open 5bda90afcfd344fa33b8b33580cdbe7b.zip, 5bda90afcfd344fa33b8b33580cdbe7b.zip.zip or 5bda90afcfd344fa33b8b33580cdbe7b.zip.ZIP.
+                                                                                                                   
+┌──(ikktaa㉿Ikktaa)-[~/Downloads/ilovelinux]
+└─$ unzip 5bda90afcfd344fa33b8b33580cdbe7b    
+unzip:  cannot find or open 5bda90afcfd344fa33b8b33580cdbe7b, 5bda90afcfd344fa33b8b33580cdbe7b.zip or 5bda90afcfd344fa33b8b33580cdbe7b.ZIP.
+                                                                                                                   
+┌──(ikktaa㉿Ikktaa)-[~/Downloads/ilovelinux]
+└─$ ls
+file.txt
+                                                                                                                   
+┌──(ikktaa㉿Ikktaa)-[~/Downloads/ilovelinux]
+└─$ wget http://10.199.16.188:7331/5bda90afcfd344fa33b8b33580cdbe7b.zip
+--2023-08-28 21:40:31--  http://10.199.16.188:7331/5bda90afcfd344fa33b8b33580cdbe7b.zip
+Connecting to 10.199.16.188:7331... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 5177 (5.1K) [application/zip]
+Saving to: ‘5bda90afcfd344fa33b8b33580cdbe7b.zip’
+
+5bda90afcfd344fa33b8b33580cd 100%[=============================================>]   5.06K  --.-KB/s    in 0.08s   
+
+2023-08-28 21:40:32 (64.0 KB/s) - ‘5bda90afcfd344fa33b8b33580cdbe7b.zip’ saved [5177/5177]
+
+                                                                                                                   
+┌──(ikktaa㉿Ikktaa)-[~/Downloads/ilovelinux]
+└─$ mkdir latihan   
+                                                                                                                   
+┌──(ikktaa㉿Ikktaa)-[~/Downloads/ilovelinux]
+└─$ unzip 5bda90afcfd344fa33b8b33580cdbe7b
+Archive:  5bda90afcfd344fa33b8b33580cdbe7b.zip
+  inflating: runme                   
+  inflating: .daemon                 
+                                                                                                                   
+┌──(ikktaa㉿Ikktaa)-[~/Downloads/ilovelinux]
+└─$ ls
+5bda90afcfd344fa33b8b33580cdbe7b.zip  file.txt  latihan  runme
+                                                                                                                   
+┌──(ikktaa㉿Ikktaa)-[~/Downloads/ilovelinux]
+└─$ runme
+runme: command not found
+                                                                                                                   
+┌──(ikktaa㉿Ikktaa)-[~/Downloads/ilovelinux]
+└─$ chmod +x runme  
+                                                                                                                   
+┌──(ikktaa㉿Ikktaa)-[~/Downloads/ilovelinux]
+└─$ runme  
+runme: command not found
+                                                                                                                   
+┌──(ikktaa㉿Ikktaa)-[~/Downloads/ilovelinux]
+└─$ .runme 
+.runme: command not found
+                                                                                                                   
+┌──(ikktaa㉿Ikktaa)-[~/Downloads/ilovelinux]
+└─$ rm 5bda90afcfd344fa33b8b33580cdbe7b.zip 
+                                                                                                                   
+┌──(ikktaa㉿Ikktaa)-[~/Downloads/ilovelinux]
+└─$ rm runme                               
+                                                                                                                   
+┌──(ikktaa㉿Ikktaa)-[~/Downloads/ilovelinux]
+└─$ cd latihan    
+                                                                                                                   
+┌──(ikktaa㉿Ikktaa)-[~/Downloads/ilovelinux/latihan]
+└─$ wget http://10.199.16.188:7331/5bda90afcfd344fa33b8b33580cdbe7b.zip
+--2023-08-28 21:42:19--  http://10.199.16.188:7331/5bda90afcfd344fa33b8b33580cdbe7b.zip
+Connecting to 10.199.16.188:7331... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 5177 (5.1K) [application/zip]
+Saving to: ‘5bda90afcfd344fa33b8b33580cdbe7b.zip’
+
+5bda90afcfd344fa33b8b33580cd 100%[=============================================>]   5.06K  --.-KB/s    in 0.06s   
+
+2023-08-28 21:42:20 (83.7 KB/s) - ‘5bda90afcfd344fa33b8b33580cdbe7b.zip’ saved [5177/5177]
+
+                                                                                                                   
+┌──(ikktaa㉿Ikktaa)-[~/Downloads/ilovelinux/latihan]
+└─$ unzip 5bda90afcfd344fa33b8b33580cdbe7b
+Archive:  5bda90afcfd344fa33b8b33580cdbe7b.zip
+  inflating: runme                   
+  inflating: .daemon                 
+                                                                                                                   
+┌──(ikktaa㉿Ikktaa)-[~/Downloads/ilovelinux/latihan]
+└─$ ls -l runme
+-rwxrwxrwx 1 ikktaa ikktaa 16776 Aug 20 19:54 runme
+                                                                                                                   
+┌──(ikktaa㉿Ikktaa)-[~/Downloads/ilovelinux/latihan]
+└─$ chmod +x runme
+                                                                                                                   
+┌──(ikktaa㉿Ikktaa)-[~/Downloads/ilovelinux/latihan]
+└─$ ./runme
+__________       .__          __  .__.__                    .____    .__                      _______________   ________  ________  
+\______   \ ____ |  | _____ _/  |_|__|  |__ _____    ____   |    |   |__| ____  __ _____  ___ \_____  \   _  \  \_____  \ \_____  \ 
+ |     ___// __ \|  | \__  \\   __\  |  |  \\__  \  /    \  |    |   |  |/    \|  |  \  \/  /  /  ____/  /_\  \  /  ____/   _(__  < 
+ |    |   \  ___/|  |__/ __ \|  | |  |   Y  \/ __ \|   |  \ |    |___|  |   |  \  |  />    <  /       \  \_/   \/       \  /       \
+ |____|    \___  >____(____  /__| |__|___|  (____  /___|  / |_______ \__|___|  /____//__/\_ \ \_______ \_____  /\_______ \/______  /
+               \/          \/             \/     \/     \/          \/       \/            \/         \/     \/         \/       \/ 
+
+This is your initial step. You have to find the secret that is hidden in the file.
+                                                                                                                   
+┌──(ikktaa㉿Ikktaa)-[~/Downloads/ilovelinux/latihan]
+└─$ ./runme >> runme.log
+                                                                                                                   
+┌──(ikktaa㉿Ikktaa)-[~/Downloads/ilovelinux/latihan]
+└─$ cat runme.log 
+__________       .__          __  .__.__                    .____    .__                      _______________   ________  ________  
+\______   \ ____ |  | _____ _/  |_|__|  |__ _____    ____   |    |   |__| ____  __ _____  ___ \_____  \   _  \  \_____  \ \_____  \ 
+ |     ___// __ \|  | \__  \\   __\  |  |  \\__  \  /    \  |    |   |  |/    \|  |  \  \/  /  /  ____/  /_\  \  /  ____/   _(__  < 
+ |    |   \  ___/|  |__/ __ \|  | |  |   Y  \/ __ \|   |  \ |    |___|  |   |  \  |  />    <  /       \  \_/   \/       \  /       \
+ |____|    \___  >____(____  /__| |__|___|  (____  /___|  / |_______ \__|___|  /____//__/\_ \ \_______ \_____  /\_______ \/______  /
+               \/          \/             \/     \/     \/          \/       \/            \/         \/     \/         \/       \/ 
+
+This is your initial step. You have to find the secret that is hidden in the file.
+                                                                                                                   
+┌──(ikktaa㉿Ikktaa)-[~/Downloads/ilovelinux/latihan]
+└─$ cat runme.log
+__________       .__          __  .__.__                    .____    .__                      _______________   ________  ________  
+\______   \ ____ |  | _____ _/  |_|__|  |__ _____    ____   |    |   |__| ____  __ _____  ___ \_____  \   _  \  \_____  \ \_____  \ 
+ |     ___// __ \|  | \__  \\   __\  |  |  \\__  \  /    \  |    |   |  |/    \|  |  \  \/  /  /  ____/  /_\  \  /  ____/   _(__  < 
+ |    |   \  ___/|  |__/ __ \|  | |  |   Y  \/ __ \|   |  \ |    |___|  |   |  \  |  />    <  /       \  \_/   \/       \  /       \
+ |____|    \___  >____(____  /__| |__|___|  (____  /___|  / |_______ \__|___|  /____//__/\_ \ \_______ \_____  /\_______ \/______  /
+               \/          \/             \/     \/     \/          \/       \/            \/         \/     \/         \/       \/ 
+
+This is your initial step. You have to find the secret that is hidden in the file.
+                                                                                                                                 
+┌──(ikktaa㉿Ikktaa)-[~/Downloads/ilovelinux/latihan]
+└─$ cat runme    
+@@@@�▒▒▒PP��   ���-�=�=���-�=�=�888 XXXDDS�td888 P�td� � � ,,Q�tdR�td�-�=�=PP/lib64/ld-linux-x86-64.so.2GNU��GNU�ht��
+                                                                                                                     ]\4��d=N��"GO k z "putssystem__libc_start_main__cxa_finalizelibc.so.6GLIBC_2.2.5GLIBC_2.34_ITM_deregisterTMCloneTable__gmon_start___ITM_registerTMCloneTable.u▒i     8���D�@�?�?�?�?�?�?�?H�H��/H��t��H���5�/�%�/@�%�/h������%�/h������%�/f�1�I��^H��H���PTE1�1�H�=��W/�f.�@H�=�2H��2H9�tH�6/H��t     �����H�=y2H�5r2H)�H��H��?H��H�H��tH�/H����fD�����=32u+UH�=�.H��t
+                                                                                        H�=�.�)����d����
+                                                                                                        2]������w�����UH��H��.H�������H��H���������tH��H���������H��H��������]�H�H��wget http://10.199.16.188:7331/S3cr3t_f1L3s.zip -qerror downloading fileThis is your initial step. You have to find the secret that is hidden in the file.(t���t���������D�����zRx
+                                                                                                   h���"zRx
+                                                                                                          $����0F▒J
+                                                                                                                   �?▒;*3$"D��\��M�VE�C
+@.
+��▒����o���
+�
+ ▒�?0 � ������o0���o���o���o�=6@__________       .__          __  .__.__                    .____    .__                      _______________   ________  ________  
+\______   \ ____ |  | _____ _/  |_|__|  |__ _____    ____   |    |   |__| ____  __ _____  ___ \_____  \   _  \  \_____  \ \_____  \ 
+ |     ___// __ \|  | \__  \\   __\  |  |  \\__  \  /    \  |    |   |  |/    \|  |  \  \/  /  /  ____/  /_\  \  /  ____/   _(__  < 
+ |    |   \  ___/|  |__/ __ \|  | |  |   Y  \/ __ \|   |  \ |    |___|  |   |  \  |  />    <  /       \  \_/   \/       \  /       \
+ |____|    \___  >____(____  /__| |__|___|  (____  /___|  / |_______ \__|___|  /____//__/\_ \ \_______ \_____  /\_______ \/______  /
+               \/          \/             \/     \/     \/          \/       \/            \/         \/     \/         \/       \/ 
+GCC: (Ubuntu 12.3.0-1ubuntu1~22.04) 12.3.0��    | ��� �3I>CU�=|@��=����▒ @����!����=�� ��?� b ▒@/@▒>CG�M`▒@m |@� �@Cf`"�>C�IV�▒@C� �"�
+     Scrt1.o__abi_tagcrtstuff.cderegister_tm_clones__do_global_dtors_auxcompleted.0__do_global_dtors_aux_fini_array_entryframe_dummy__frame_dummy_init_array_entryrunme.cbanner__FRAME_END___DYNAMIC__GNU_EH_FRAME_HDR_GLOBAL_OFFSET_TABLE___libc_start_main@GLIBC_2.34_ITM_deregisterTMCloneTableputs@GLIBC_2.2.5_edata_finisystem@GLIBC_2.2.5__data_start__gmon_start____dso_handle_IO_stdin_used_end__bss_startmain__TMC_END___ITM_registerTMCloneTable__cxa_finalize@GLIBC_2.2.5_init.symtab.strtab.shstrtab.interp.note.gnu.property.note.gnu.build-id.note.ABI-tag.gnu.hash.dynsym.dynstr.gnu.version.gnu.version_r.rela.dyn.rela.plt.init.plt.got.text.fini.rodata.eh_frame_hdr.eh_frame.init_array.fini_array.dynamic.data.bss.comment▒▒#886XX$I|| W���o��a
+                                                                                              ��▒i���q���o~���o00�``▒�B  ▒��  0�P�``?��� �  �� � ,�� � ������=�-��?��@0>>C>0>3+p3▒       7��8                                                                                                                                 
+┌──(ikktaa㉿Ikktaa)-[~/Downloads/ilovelinux/latihan]
+└─$ ls -a      
+.  ..  .daemon  5bda90afcfd344fa33b8b33580cdbe7b.zip  S3cr3t_f1L3s.zip  S3cr3t_f1L3s.zip.1  runme  runme.log
+                                                                                                                                 
+┌──(ikktaa㉿Ikktaa)-[~/Downloads/ilovelinux/latihan]
+└─$ chmod +x .daemon
+                                                                                                                                 
+┌──(ikktaa㉿Ikktaa)-[~/Downloads/ilovelinux/latihan]
+└─$ ./.daemon           
+                                                                                                                                 
+┌──(ikktaa㉿Ikktaa)-[~/Downloads/ilovelinux/latihan]
+└─$ ps aux   
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root           1  0.1  0.0  21244 12368 ?        Ss   20:01   0:11 /sbin/init splash
+root           2  0.0  0.0      0     0 ?        S    20:01   0:00 [kthreadd]
+root           3  0.0  0.0      0     0 ?        I<   20:01   0:00 [rcu_gp]
+root           4  0.0  0.0      0     0 ?        I<   20:01   0:00 [rcu_par_gp]
+root           5  0.0  0.0      0     0 ?        I<   20:01   0:00 [slub_flushwq]
+root           6  0.0  0.0      0     0 ?        I<   20:01   0:00 [netns]
+root           8  0.0  0.0      0     0 ?        I<   20:01   0:00 [kworker/0:0H-events_highpri]
+root          10  0.0  0.0      0     0 ?        I<   20:01   0:00 [mm_percpu_wq]
+root          11  0.0  0.0      0     0 ?        I    20:01   0:00 [rcu_tasks_kthread]
+root          12  0.0  0.0      0     0 ?        I    20:01   0:00 [rcu_tasks_rude_kthread]
+root          13  0.0  0.0      0     0 ?        I    20:01   0:00 [rcu_tasks_trace_kthread]
+root          14  0.0  0.0      0     0 ?        S    20:01   0:00 [ksoftirqd/0]
+root          15  0.1  0.0      0     0 ?        I    20:01   0:11 [rcu_preempt]
+root          16  0.0  0.0      0     0 ?        S    20:01   0:00 [migration/0]
+root          17  0.0  0.0      0     0 ?        S    20:01   0:00 [idle_inject/0]
+root          19  0.0  0.0      0     0 ?        S    20:01   0:00 [cpuhp/0]
+root          20  0.0  0.0      0     0 ?        S    20:01   0:00 [cpuhp/1]
+root          21  0.0  0.0      0     0 ?        S    20:01   0:00 [idle_inject/1]
+root          22  0.0  0.0      0     0 ?        S    20:01   0:00 [migration/1]
+root          23  0.0  0.0      0     0 ?        S    20:01   0:00 [ksoftirqd/1]
+root          25  0.0  0.0      0     0 ?        I<   20:01   0:00 [kworker/1:0H-events_highpri]
+root          26  0.0  0.0      0     0 ?        S    20:01   0:00 [cpuhp/2]
+root          27  0.0  0.0      0     0 ?        S    20:01   0:00 [idle_inject/2]
+root          28  0.0  0.0      0     0 ?        S    20:01   0:00 [migration/2]
+root          29  0.0  0.0      0     0 ?        S    20:01   0:00 [ksoftirqd/2]
+root          31  0.0  0.0      0     0 ?        I<   20:01   0:00 [kworker/2:0H-events_highpri]
+root          32  0.0  0.0      0     0 ?        S    20:01   0:00 [cpuhp/3]
+root          33  0.0  0.0      0     0 ?        S    20:01   0:00 [idle_inject/3]
+root          34  0.0  0.0      0     0 ?        S    20:01   0:00 [migration/3]
+root          35  0.0  0.0      0     0 ?        S    20:01   0:00 [ksoftirqd/3]
+root          37  0.0  0.0      0     0 ?        I<   20:01   0:00 [kworker/3:0H-events_highpri]
+root          38  0.0  0.0      0     0 ?        S    20:01   0:00 [cpuhp/4]
+root          39  0.0  0.0      0     0 ?        S    20:01   0:00 [idle_inject/4]
+root          40  0.0  0.0      0     0 ?        S    20:01   0:01 [migration/4]
+root          41  0.0  0.0      0     0 ?        S    20:01   0:00 [ksoftirqd/4]
+root          43  0.0  0.0      0     0 ?        I<   20:01   0:00 [kworker/4:0H-events_highpri]
+root          44  0.0  0.0      0     0 ?        S    20:01   0:00 [cpuhp/5]
+root          45  0.0  0.0      0     0 ?        S    20:01   0:00 [idle_inject/5]
+root          46  0.0  0.0      0     0 ?        S    20:01   0:01 [migration/5]
+root          47  0.0  0.0      0     0 ?        S    20:01   0:00 [ksoftirqd/5]
+root          49  0.0  0.0      0     0 ?        I<   20:01   0:00 [kworker/5:0H-events_highpri]
+root          50  0.0  0.0      0     0 ?        S    20:01   0:00 [cpuhp/6]
+root          51  0.0  0.0      0     0 ?        S    20:01   0:00 [idle_inject/6]
+root          52  0.0  0.0      0     0 ?        S    20:01   0:01 [migration/6]
+root          53  0.0  0.0      0     0 ?        S    20:01   0:00 [ksoftirqd/6]
+root          55  0.0  0.0      0     0 ?        I<   20:01   0:00 [kworker/6:0H-events_highpri]
+root          56  0.0  0.0      0     0 ?        S    20:01   0:00 [cpuhp/7]
+root          57  0.0  0.0      0     0 ?        S    20:01   0:00 [idle_inject/7]
+root          58  0.0  0.0      0     0 ?        S    20:01   0:01 [migration/7]
+root          59  0.0  0.0      0     0 ?        S    20:01   0:00 [ksoftirqd/7]
+root          61  0.0  0.0      0     0 ?        I<   20:01   0:00 [kworker/7:0H-events_highpri]
+root          62  0.0  0.0      0     0 ?        S    20:01   0:00 [cpuhp/8]
+root          63  0.0  0.0      0     0 ?        S    20:01   0:00 [idle_inject/8]
+root          64  0.0  0.0      0     0 ?        S    20:01   0:01 [migration/8]
+root          65  0.0  0.0      0     0 ?        S    20:01   0:00 [ksoftirqd/8]
+root          67  0.0  0.0      0     0 ?        I<   20:01   0:00 [kworker/8:0H-events_highpri]
+root          68  0.0  0.0      0     0 ?        S    20:01   0:00 [cpuhp/9]
+root          69  0.0  0.0      0     0 ?        S    20:01   0:00 [idle_inject/9]
+root          70  0.0  0.0      0     0 ?        S    20:01   0:01 [migration/9]
+root          71  0.0  0.0      0     0 ?        S    20:01   0:00 [ksoftirqd/9]
+root          73  0.0  0.0      0     0 ?        I<   20:01   0:00 [kworker/9:0H-events_highpri]
+root          74  0.0  0.0      0     0 ?        S    20:01   0:00 [cpuhp/10]
+root          75  0.0  0.0      0     0 ?        S    20:01   0:00 [idle_inject/10]
+root          76  0.0  0.0      0     0 ?        S    20:01   0:01 [migration/10]
+root          77  0.0  0.0      0     0 ?        S    20:01   0:00 [ksoftirqd/10]
+root          79  0.0  0.0      0     0 ?        I<   20:01   0:00 [kworker/10:0H-events_highpri]
+root          80  0.0  0.0      0     0 ?        S    20:01   0:00 [cpuhp/11]
+root          81  0.0  0.0      0     0 ?        S    20:01   0:00 [idle_inject/11]
+root          82  0.0  0.0      0     0 ?        S    20:01   0:01 [migration/11]
+root          83  0.0  0.0      0     0 ?        S    20:01   0:00 [ksoftirqd/11]
+root          85  0.0  0.0      0     0 ?        I<   20:01   0:00 [kworker/11:0H-events_highpri]
+root          92  0.5  0.0      0     0 ?        I    20:01   0:31 [kworker/u24:6-i915]
+root          98  0.0  0.0      0     0 ?        S    20:01   0:00 [kdevtmpfs]
+root          99  0.0  0.0      0     0 ?        I<   20:01   0:00 [inet_frag_wq]
+root         100  0.0  0.0      0     0 ?        S    20:01   0:00 [kauditd]
+root         102  0.0  0.0      0     0 ?        S    20:01   0:00 [khungtaskd]
+root         103  0.0  0.0      0     0 ?        S    20:01   0:00 [oom_reaper]
+root         104  0.0  0.0      0     0 ?        I<   20:01   0:00 [writeback]
+root         105  0.0  0.0      0     0 ?        S    20:01   0:00 [kcompactd0]
+root         106  0.0  0.0      0     0 ?        SN   20:01   0:00 [ksmd]
+root         107  0.0  0.0      0     0 ?        SN   20:01   0:00 [khugepaged]
+root         108  0.0  0.0      0     0 ?        I<   20:01   0:00 [kintegrityd]
+root         109  0.0  0.0      0     0 ?        I<   20:01   0:00 [kblockd]
+root         110  0.0  0.0      0     0 ?        I<   20:01   0:00 [blkcg_punt_bio]
+root         115  0.0  0.0      0     0 ?        I    20:01   0:00 [kworker/7:1-events]
+root         118  0.0  0.0      0     0 ?        I    20:01   0:00 [kworker/10:1-mm_percpu_wq]
+root         120  0.0  0.0      0     0 ?        I    20:01   0:00 [kworker/3:1-mm_percpu_wq]
+root         121  0.0  0.0      0     0 ?        I<   20:02   0:00 [tpm_dev_wq]
+root         122  0.0  0.0      0     0 ?        I<   20:02   0:00 [edac-poller]
+root         123  0.0  0.0      0     0 ?        I<   20:02   0:00 [devfreq_wq]
+root         124  0.0  0.0      0     0 ?        I<   20:02   0:00 [kworker/4:1H-events_highpri]
+root         125  0.0  0.0      0     0 ?        S    20:02   0:00 [kswapd0]
+root         131  0.0  0.0      0     0 ?        I<   20:02   0:00 [kthrotld]
+root         133  0.0  0.0      0     0 ?        I<   20:02   0:00 [acpi_thermal_pm]
+root         134  0.0  0.0      0     0 ?        S    20:02   0:00 [xenbus_probe]
+root         135  0.0  0.0      0     0 ?        I<   20:02   0:00 [hfi-updates]
+root         138  0.0  0.0      0     0 ?        I<   20:02   0:00 [mld]
+root         139  0.0  0.0      0     0 ?        I<   20:02   0:00 [kworker/2:1H-events_highpri]
+root         140  0.0  0.0      0     0 ?        I<   20:02   0:00 [ipv6_addrconf]
+root         145  0.0  0.0      0     0 ?        I<   20:02   0:00 [kstrp]
+root         150  0.0  0.0      0     0 ?        I<   20:02   0:00 [zswap-shrink]
+root         151  0.3  0.0      0     0 ?        D<   20:02   0:20 [kworker/u25:0+i915_flip]
+root         199  0.0  0.0      0     0 ?        I<   20:02   0:00 [kworker/0:1H-events_highpri]
+root         215  0.0  0.0      0     0 ?        I<   20:02   0:00 [kworker/9:1H-events_highpri]
+root         243  0.0  0.0      0     0 ?        I<   20:02   0:00 [kworker/6:1H-events_highpri]
+root         245  0.0  0.0      0     0 ?        I<   20:02   0:00 [kworker/11:1H-events_highpri]
+root         246  0.0  0.0      0     0 ?        I<   20:02   0:00 [kworker/5:1H-events_highpri]
+root         247  0.0  0.0      0     0 ?        I<   20:02   0:00 [kworker/7:1H-events_highpri]
+root         248  0.0  0.0      0     0 ?        I<   20:02   0:00 [kworker/10:1H-events_highpri]
+root         249  0.0  0.0      0     0 ?        I<   20:02   0:00 [kworker/3:1H-events_highpri]
+root         250  0.0  0.0      0     0 ?        I<   20:02   0:00 [kworker/8:1H-events_highpri]
+root         251  0.0  0.0      0     0 ?        I<   20:02   0:00 [kworker/1:1H-kblockd]
+root         252  0.0  0.0      0     0 ?        I<   20:02   0:00 [cryptd]
+root         281  0.0  0.0      0     0 ?        I<   20:02   0:00 [nvme-wq]
+root         282  0.0  0.0      0     0 ?        I<   20:02   0:00 [nvme-reset-wq]
+root         283  0.0  0.0      0     0 ?        I<   20:02   0:00 [nvme-delete-wq]
+root         296  0.3  0.0      0     0 ?        S    20:02   0:23 [irq/140-ELAN0790:00]
+root         301  0.0  0.0      0     0 ?        I<   20:02   0:00 [ttm]
+root         310  0.0  0.0      0     0 ?        I<   20:02   0:00 [ttm]
+root         314  0.0  0.0      0     0 ?        S    20:02   0:00 [card1-crtc0]
+root         315  0.0  0.0      0     0 ?        S    20:02   0:00 [card1-crtc1]
+root         316  0.0  0.0      0     0 ?        S    20:02   0:00 [card1-crtc2]
+root         317  0.0  0.0      0     0 ?        S    20:02   0:00 [card1-crtc3]
+root         364  0.0  0.0      0     0 ?        S    20:02   0:00 [jbd2/nvme0n1p6-8]
+root         365  0.0  0.0      0     0 ?        I<   20:02   0:00 [ext4-rsv-conver]
+root         426  0.0  0.0  49948 15380 ?        Ss   20:02   0:00 /lib/systemd/systemd-journald
+root         469  0.4  0.0  28404  7464 ?        Ss   20:02   0:26 /lib/systemd/systemd-udevd
+root         470  0.0  0.0      0     0 ?        S    20:02   0:00 [psimon]
+root         509  0.0  0.0      0     0 ?        S    20:02   0:00 [psimon]
+root         592  0.0  0.0      0     0 ?        S    20:02   0:00 [watchdogd]
+root         593  0.0  0.0      0     0 ?        S    20:02   0:00 [irq/143-mei_me]
+root         658  0.0  0.0      0     0 ?        I<   20:02   0:00 [cfg80211]
+root         676  0.0  0.0      0     0 ?        I<   20:02   0:00 [kworker/u25:2-hci0]
+root         677  0.0  0.0      0     0 ?        S    20:02   0:00 [irq/146-AudioDSP]
+root         680  0.1  0.0      0     0 ?        S    20:02   0:07 [napi/phy0-8193]
+root         681  0.0  0.0      0     0 ?        S    20:02   0:00 [napi/phy0-8194]
+root         682  0.0  0.0      0     0 ?        S    20:02   0:06 [napi/phy0-8195]
+root         740  0.0  0.0   8264  7472 ?        Ss   20:02   0:00 /usr/sbin/haveged --Foreground --verbose=1
+systemd+     743  0.0  0.0  90424  7552 ?        Ssl  20:02   0:00 /lib/systemd/systemd-timesyncd
+root         769  0.0  0.0      0     0 ?        I<   20:02   0:00 [rpciod]
+root         770  0.0  0.0      0     0 ?        I<   20:02   0:00 [xprtiod]
+root         776  0.0  0.0      0     0 ?        S    20:02   0:00 [psimon]
+root         778  0.0  0.0   7016  2560 ?        Ss   20:02   0:00 /usr/sbin/cron -f
+message+     779  0.1  0.0  10760  5120 ?        Ss   20:02   0:09 /usr/bin/dbus-daemon --system --address=systemd: --nofork --no
+polkitd      781  0.0  0.0 387696  9636 ?        Ssl  20:02   0:00 /usr/lib/polkit-1/polkitd --no-debug
+root         782  0.0  0.0  11652  5888 ?        Ss   20:02   0:00 /usr/sbin/smartd -n
+root         783  0.0  0.0  17484  8308 ?        Ss   20:02   0:00 /lib/systemd/systemd-logind
+root         791  0.0  0.1 333492 21044 ?        Ssl  20:02   0:01 /usr/sbin/NetworkManager --no-daemon
+root         810  0.0  0.0 391204 13496 ?        Ssl  20:02   0:00 /usr/sbin/ModemManager
+root         830  0.0  0.0      0     0 ?        S    20:02   0:00 [psimon]
+root         848  0.0  0.0 382652  9112 ?        SLsl 20:02   0:00 /usr/sbin/lightdm
+root         861  9.2  0.8 2243332 129632 tty7   Rsl+ 20:02   9:42 /usr/lib/xorg/Xorg :0 -seat seat0 -auth /var/run/lightdm/root/
+root         862  0.0  0.0   5896  1920 tty1     Ss+  20:02   0:00 /sbin/agetty -o -p -- \u --noclear - linux
+root         888  0.0  0.0      0     0 ?        S    20:02   0:04 [mt76-tx phy0]
+root         921  0.0  0.0  17332 11264 ?        Ss   20:02   0:00 /sbin/wpa_supplicant -u -s -O DIR=/run/wpa_supplicant GROUP=ne
+root         929  0.0  0.0      0     0 ?        S    20:02   0:00 [psimon]
+rtkit        960  0.0  0.0  22776  3328 ?        SNsl 20:02   0:00 /usr/libexec/rtkit-daemon
+root        1113  0.0  0.0 236344  8348 ?        Sl   20:02   0:00 lightdm --session-child 15 26
+root        1117  0.0  0.0      0     0 ?        I    20:02   0:00 [kworker/3:2]
+ikktaa      1125  0.0  0.0  19916 11520 ?        Ss   20:02   0:00 /lib/systemd/systemd --user
+ikktaa      1126  0.0  0.0  22420  5472 ?        S    20:02   0:00 (sd-pam)
+root        1140  0.0  0.0      0     0 ?        S    20:02   0:00 [psimon]
+ikktaa      1142  0.0  0.1 138660 17492 ?        S<sl 20:02   0:01 /usr/bin/pipewire
+ikktaa      1143  0.0  0.0  94740  5632 ?        Ssl  20:02   0:00 /usr/bin/pipewire -c filter-chain.conf
+ikktaa      1144  0.0  0.1 412076 21940 ?        S<sl 20:02   0:00 /usr/bin/wireplumber
+ikktaa      1145  0.0  0.1 128944 26012 ?        S<Lsl 20:02   0:01 /usr/bin/pipewire-pulse
+ikktaa      1147  0.0  0.0 314600  9856 ?        SLsl 20:02   0:00 /usr/bin/gnome-keyring-daemon --foreground --components=pkcs11
+ikktaa      1149  0.0  0.0   9836  5120 ?        Ss   20:02   0:00 /usr/bin/dbus-daemon --session --address=systemd: --nofork --n
+ikktaa      1171  0.0  0.1 341560 28468 ?        Ssl  20:02   0:01 xfce4-session
+ikktaa      1219  0.0  0.0   7908  1780 ?        Ss   20:02   0:00 /usr/bin/ssh-agent x-session-manager
+ikktaa      1229  0.0  0.0 385036  9676 ?        Ssl  20:02   0:00 /usr/libexec/at-spi-bus-launcher
+ikktaa      1236  0.0  0.0   9360  4736 ?        S    20:02   0:00 /usr/bin/dbus-daemon --config-file=/usr/share/defaults/at-spi2
+ikktaa      1247  0.0  0.0 238340  9892 ?        Sl   20:02   0:01 /usr/libexec/at-spi2-registryd --use-gnome-session
+ikktaa      1260  0.0  0.0  81684  5196 ?        SLs  20:02   0:00 /usr/bin/gpg-agent --supervised
+ikktaa      1262  2.5  0.6 1404272 106944 ?      Sl   20:02   2:41 xfwm4 --display :0.0 --sm-client-id 24ba8703a-8dd8-4389-9b45-2
+ikktaa      1266  0.0  0.0 312188  9340 ?        Ssl  20:02   0:00 /usr/libexec/gvfsd
+ikktaa      1272  0.0  0.0 457652 10376 ?        Sl   20:02   0:00 /usr/libexec/gvfsd-fuse /run/user/1000/gvfs -f
+ikktaa      1298  0.0  0.1 305584 31644 ?        Sl   20:02   0:01 xfsettingsd --display :0.0 --sm-client-id 28620b183-4b3a-4304-
+root        1302  0.1  0.0 310940 10456 ?        Ssl  20:02   0:07 /usr/libexec/upowerd
+ikktaa      1303  0.0  0.0 310964  8808 ?        Ssl  20:02   0:00 /usr/libexec/xdg-permission-store
+ikktaa      1313  0.1  0.2 541820 47924 ?        Sl   20:02   0:07 xfce4-panel --display :0.0 --sm-client-id 27b3a16f8-4ea1-46f6-
+ikktaa      1318  0.0  0.1 341452 28324 ?        Sl   20:02   0:00 Thunar --sm-client-id 2244b5c70-14da-4ccd-a245-b2e0f2cf82b0 --
+ikktaa      1323  0.0  0.3 489384 62744 ?        Sl   20:02   0:01 xfdesktop --display :0.0 --sm-client-id 225d5755c-6223-422f-86
+ikktaa      1327  0.0  0.3 467044 49384 ?        Sl   20:02   0:00 /usr/lib/x86_64-linux-gnu/xfce4/panel/wrapper-2.0 /usr/lib/x86
+ikktaa      1331  0.4  0.3 308824 53480 ?        Sl   20:02   0:28 /usr/lib/x86_64-linux-gnu/xfce4/panel/wrapper-2.0 /usr/lib/x86
+ikktaa      1332  0.0  0.1 413980 28964 ?        Sl   20:02   0:00 /usr/lib/x86_64-linux-gnu/xfce4/panel/wrapper-2.0 /usr/lib/x86
+ikktaa      1333  0.2  0.2 466720 40708 ?        Sl   20:02   0:17 /usr/lib/x86_64-linux-gnu/xfce4/panel/wrapper-2.0 /usr/lib/x86
+ikktaa      1334  0.0  0.2 469988 42820 ?        Sl   20:02   0:00 /usr/lib/x86_64-linux-gnu/xfce4/panel/wrapper-2.0 /usr/lib/x86
+ikktaa      1335  0.0  0.2 473012 45972 ?        Sl   20:02   0:00 /usr/lib/x86_64-linux-gnu/xfce4/panel/wrapper-2.0 /usr/lib/x86
+ikktaa      1336  0.2  0.2 465392 44308 ?        Sl   20:02   0:13 /usr/lib/x86_64-linux-gnu/xfce4/panel/wrapper-2.0 /usr/lib/x86
+ikktaa      1343  0.0  0.2 465232 44716 ?        Sl   20:02   0:00 /usr/lib/x86_64-linux-gnu/xfce4/panel/wrapper-2.0 /usr/lib/x86
+ikktaa      1374 47.1  4.8 14110252 781028 ?     Sl   20:02  49:22 /usr/lib/firefox-esr/firefox-esr --sm-client-id 2f421ca46-294e
+ikktaa      1375  0.0  0.1 266528 25292 ?        Sl   20:02   0:01 xfce4-power-manager --restart --sm-client-id 2c376e69a-6188-4e
+ikktaa      1398  0.0  0.2 465872 43220 ?        Ssl  20:02   0:00 /usr/lib/x86_64-linux-gnu/xfce4/notifyd/xfce4-notifyd
+ikktaa      1409  0.0  0.1 497576 31472 ?        Sl   20:02   0:00 light-locker
+ikktaa      1417  0.0  0.0 530904 12332 ?        Sl   20:02   0:00 xiccd
+ikktaa      1428  0.0  0.1 260404 20256 ?        Sl   20:02   0:00 /usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1
+colord      1439  0.0  0.0 317000 14648 ?        Ssl  20:02   0:00 /usr/libexec/colord
+ikktaa      1451  0.0  0.3 448768 51056 ?        Sl   20:02   0:00 /usr/bin/python3 /usr/bin/blueman-applet
+ikktaa      1458  0.0  0.0 230212  5504 ?        Ssl  20:02   0:00 /usr/libexec/dconf-service
+ikktaa      1475  0.0  0.3 560064 50996 ?        Sl   20:02   0:01 nm-applet
+ikktaa      1486  0.0  0.0  14644  4068 ?        Ssl  20:02   0:00 xcape -e Super_L Control_L Escape
+ikktaa      1487  0.0  0.0 381968  9924 ?        Sl   20:02   0:00 /usr/libexec/geoclue-2.0/demos/agent
+root        1520  0.0  0.0  96852  3584 ?        Ssl  20:02   0:00 /usr/sbin/pcscd --foreground --auto-exit
+ikktaa      1619  0.0  0.0 474752 15536 ?        Ssl  20:02   0:00 /usr/libexec/xdg-desktop-portal
+ikktaa      1629  0.0  0.0 534736 11048 ?        Ssl  20:02   0:00 /usr/libexec/xdg-document-portal
+root        1635  0.0  0.0   2484  1792 ?        Ss   20:02   0:00 fusermount3 -o rw,nosuid,nodev,fsname=portal,auto_unmount,subt
+ikktaa      1641  0.0  0.1 410168 22860 ?        Ssl  20:02   0:00 /usr/libexec/xdg-desktop-portal-gtk
+ikktaa      1660  0.0  0.0  48888  7936 ?        Ss   20:02   0:00 /usr/libexec/bluetooth/obexd
+ikktaa      1711  0.0  0.0 426176 14696 ?        Ssl  20:02   0:00 /usr/libexec/gvfs-udisks2-volume-monitor
+root        1718  0.0  0.1 471348 19240 ?        Ssl  20:02   0:00 /usr/libexec/udisks2/udisksd
+ikktaa      1728  0.0  0.2 217452 37504 ?        Sl   20:02   0:00 /usr/lib/firefox-esr/firefox-esr -contentproc -parentBuildID 2
+ikktaa      1744  0.0  0.0 308788 10428 ?        Ssl  20:02   0:00 /usr/libexec/gvfs-gphoto2-volume-monitor
+ikktaa      1757  0.0  0.0 307700  7844 ?        Ssl  20:02   0:00 /usr/libexec/gvfs-mtp-volume-monitor
+ikktaa      1762  0.0  0.0 386696 11476 ?        Ssl  20:02   0:00 /usr/libexec/gvfs-afc-volume-monitor
+ikktaa      1768  0.0  0.0 307696  7988 ?        Ssl  20:02   0:00 /usr/libexec/gvfs-goa-volume-monitor
+ikktaa      1820  0.0  0.0 386192  9968 ?        Sl   20:02   0:00 /usr/libexec/gvfsd-trash --spawner :1.20 /org/gtk/gvfs/exec_sp
+ikktaa      1826  0.0  0.8 2524980 140376 ?      Sl   20:02   0:03 /usr/lib/firefox-esr/firefox-esr -contentproc -childID 1 -isFo
+ikktaa      1831  0.0  0.0 234228  8064 ?        Ssl  20:02   0:00 /usr/libexec/gvfsd-metadata
+ikktaa      2140  0.0  0.6 2452656 97880 ?       Sl   20:02   0:00 /usr/lib/firefox-esr/firefox-esr -contentproc -childID 5 -isFo
+ikktaa      2223  0.5  1.6 2920944 269456 ?      Sl   20:02   0:32 /usr/lib/firefox-esr/firefox-esr -contentproc -childID 6 -isFo
+ikktaa      2235  0.4  1.7 2926376 287004 ?      Sl   20:02   0:28 /usr/lib/firefox-esr/firefox-esr -contentproc -childID 7 -isFo
+ikktaa      2317  0.1  0.7 686700 116916 ?       Sl   20:02   0:10 /usr/lib/firefox-esr/firefox-esr -contentproc -parentBuildID 2
+ikktaa      2320  0.0  0.3 361604 55148 ?        Sl   20:02   0:05 /usr/lib/firefox-esr/firefox-esr -contentproc -parentBuildID 2
+ikktaa      2355  0.4  2.6 11539088 431280 ?     Sl   20:02   0:28 /usr/lib/firefox-esr/firefox-esr -contentproc -childID 10 -isF
+ikktaa      3571  2.9  1.4 2695264 239176 ?      Sl   20:03   3:04 /usr/lib/firefox-esr/firefox-esr -contentproc -childID 17 -isF
+ikktaa     14543  2.5  2.9 3093468 473680 ?      Sl   20:22   2:07 /usr/lib/firefox-esr/firefox-esr -contentproc -childID 28 -isF
+ikktaa     15429  3.7  2.9 3281136 477368 ?      Sl   20:24   3:04 /usr/lib/firefox-esr/firefox-esr -contentproc -childID 30 -isF
+root       18021  0.0  0.0      0     0 ?        I    20:28   0:00 [kworker/1:0-mm_percpu_wq]
+root       22862  0.2  0.0      0     0 ?        I    20:37   0:11 [kworker/4:2-events]
+root       35212  0.4  0.0      0     0 ?        I    21:00   0:11 [kworker/u24:1-events_unbound]
+root       35507  0.0  0.0      0     0 ?        I    21:00   0:00 [kworker/1:1]
+root       40049  0.0  0.0      0     0 ?        I    21:08   0:00 [kworker/8:2-inet_frag_wq]
+root       41155  0.0  0.0      0     0 ?        I    21:10   0:00 [kworker/6:2-events]
+ikktaa     41164  0.5  0.7 2461720 120352 ?      Sl   21:10   0:12 /usr/lib/firefox-esr/firefox-esr -contentproc -childID 55 -isF
+root       41549  0.3  0.0      0     0 ?        I    21:11   0:07 [kworker/u24:0-i915]
+root       44326  0.0  0.0      0     0 ?        I    21:16   0:00 [kworker/9:0-events]
+ikktaa     45793  0.3  0.9 2604484 144580 ?      Sl   21:18   0:06 /usr/lib/firefox-esr/firefox-esr -contentproc -childID 62 -isF
+ikktaa     45855  0.0  0.0 307460  5760 ?        Sl   21:18   0:00 /usr/lib/x86_64-linux-gnu/xfce4/xfconf/xfconfd
+root       46378  0.0  0.0      0     0 ?        I    21:19   0:00 [kworker/11:0]
+ikktaa     46985  0.3  0.6 1188968 111900 ?      Sl   21:19   0:06 /usr/bin/qterminal
+ikktaa     46996  0.0  0.0  10496  5940 pts/0    Ss+  21:19   0:00 /usr/bin/zsh
+ikktaa     49624  0.3  0.7 1189324 112644 ?      Sl   21:24   0:05 /proc/46985/exe
+ikktaa     49627  0.2  0.0  10692  6252 pts/2    Ss   21:24   0:02 /usr/bin/zsh
+root       49712  0.0  0.0      0     0 ?        I    21:24   0:00 [kworker/10:2-inet_frag_wq]
+ikktaa     49946  0.2  1.0 2527928 162172 ?      Sl   21:25   0:03 /usr/lib/firefox-esr/firefox-esr -contentproc -childID 64 -isF
+root       50589  0.0  0.0      0     0 ?        I    21:26   0:00 [kworker/5:1-events]
+ikktaa     50865  6.6  2.1 2901836 339412 ?      Sl   21:26   1:22 /usr/lib/firefox-esr/firefox-esr -contentproc -childID 67 -isF
+ikktaa     50985  3.8  2.2 2690140 353568 ?      Sl   21:26   0:47 /usr/lib/firefox-esr/firefox-esr -contentproc -childID 68 -isF
+root       51223  0.3  0.0      0     0 ?        I    21:27   0:03 [kworker/0:1-events_power_efficient]
+ikktaa     53143  0.2  0.7 2470912 121300 ?      Sl   21:30   0:02 /usr/lib/firefox-esr/firefox-esr -contentproc -childID 71 -isF
+root       53618  0.0  0.0      0     0 ?        I    21:31   0:00 [kworker/6:0-events]
+root       54091  0.0  0.0      0     0 ?        I    21:31   0:00 [kworker/8:0-events]
+ikktaa     54100  2.0  3.0 11581484 493436 ?     Sl   21:31   0:19 /usr/lib/firefox-esr/firefox-esr -contentproc -childID 74 -isF
+root       54257  0.0  0.0      0     0 ?        I    21:32   0:00 [kworker/2:1-inet_frag_wq]
+ikktaa     54412  0.0  0.5 2423024 87400 ?       Sl   21:32   0:00 /usr/lib/firefox-esr/firefox-esr -contentproc -childID 75 -isF
+root       56428  0.0  0.0      0     0 ?        I    21:35   0:00 [kworker/5:2-mm_percpu_wq]
+root       56499  0.0  0.0      0     0 ?        I    21:36   0:00 [kworker/11:1-mm_percpu_wq]
+root       57184  0.0  0.0  10548  4608 pts/2    S+   21:37   0:00 sudo openvpn its-onefile-2.ovpn
+root       57185  0.0  0.0  10548  1556 pts/3    Ss   21:37   0:00 sudo openvpn its-onefile-2.ovpn
+root       57186  0.1  0.0  13856  9472 pts/3    S+   21:37   0:00 openvpn its-onefile-2.ovpn
+root       57340  0.0  0.0      0     0 ?        I    21:37   0:00 [kworker/9:2]
+root       57518  0.0  0.0      0     0 ?        I    21:37   0:00 [kworker/4:0-events]
+root       57519  0.0  0.0      0     0 ?        I    21:37   0:00 [kworker/2:2-events]
+root       57890  0.0  0.0      0     0 ?        I    21:38   0:00 [kworker/0:2-events]
+ikktaa     57942  0.9  0.7 1190060 112924 ?      Sl   21:38   0:05 /proc/49624/exe
+ikktaa     57945  0.5  0.0  14036  6952 pts/1    Ss   21:38   0:02 /usr/bin/zsh
+ikktaa     59469  0.0  0.4 2415032 71356 ?       Sl   21:40   0:00 /usr/lib/firefox-esr/firefox-esr -contentproc -childID 80 -isF
+root       59532  0.0  0.0      0     0 ?        I    21:40   0:00 [kworker/7:2-events]
+ikktaa     59541  0.0  0.4 2415032 71496 ?       Sl   21:40   0:00 /usr/lib/firefox-esr/firefox-esr -contentproc -childID 81 -isF
+root       60785  0.0  0.0      0     0 ?        I    21:42   0:00 [kworker/4:1-events]
+ikktaa     60802  0.0  0.4 2415048 71296 ?       Sl   21:42   0:00 /usr/lib/firefox-esr/firefox-esr -contentproc -childID 82 -isF
+root       61099  0.0  0.0      0     0 ?        I    21:43   0:00 [kworker/0:0-events]
+root       61485  0.6  0.0      0     0 ?        I    21:44   0:01 [kworker/u24:2-i915]
+root       61486  0.0  0.0      0     0 ?        I    21:44   0:00 [kworker/u24:3]
+root       61789  0.0  0.0      0     0 ?        I    21:44   0:00 [kworker/5:0-events]
+ikktaa     62690  0.0  0.0   2332   256 ?        Ss   21:46   0:00 ./.daemon
+root       63115  0.0  0.0  28408  5444 ?        S    21:47   0:00 (udev-worker)
+ikktaa     63139  0.0  0.0  11728  4608 pts/1    R+   21:47   0:00 ps aux
+                                                                                                                                 
+┌──(ikktaa㉿Ikktaa)-[~/Downloads/ilovelinux/latihan]
+└─$ kill 62690
+                                                                                                                                 
+┌──(ikktaa㉿Ikktaa)-[~/Downloads/ilovelinux/latihan]
+└─$ ps aux
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root           1  0.1  0.0  21244 12368 ?        Ss   20:01   0:12 /sbin/init splash
+root           2  0.0  0.0      0     0 ?        S    20:01   0:00 [kthreadd]
+root           3  0.0  0.0      0     0 ?        I<   20:01   0:00 [rcu_gp]
+root           4  0.0  0.0      0     0 ?        I<   20:01   0:00 [rcu_par_gp]
+root           5  0.0  0.0      0     0 ?        I<   20:01   0:00 [slub_flushwq]
+root           6  0.0  0.0      0     0 ?        I<   20:01   0:00 [netns]
+root           8  0.0  0.0      0     0 ?        I<   20:01   0:00 [kworker/0:0H-events_highpri]
+root          10  0.0  0.0      0     0 ?        I<   20:01   0:00 [mm_percpu_wq]
+root          11  0.0  0.0      0     0 ?        I    20:01   0:00 [rcu_tasks_kthread]
+root          12  0.0  0.0      0     0 ?        I    20:01   0:00 [rcu_tasks_rude_kthread]
+root          13  0.0  0.0      0     0 ?        I    20:01   0:00 [rcu_tasks_trace_kthread]
+root          14  0.0  0.0      0     0 ?        S    20:01   0:00 [ksoftirqd/0]
+root          15  0.1  0.0      0     0 ?        I    20:01   0:11 [rcu_preempt]
+root          16  0.0  0.0      0     0 ?        S    20:01   0:00 [migration/0]
+root          17  0.0  0.0      0     0 ?        S    20:01   0:00 [idle_inject/0]
+root          19  0.0  0.0      0     0 ?        S    20:01   0:00 [cpuhp/0]
+root          20  0.0  0.0      0     0 ?        S    20:01   0:00 [cpuhp/1]
+root          21  0.0  0.0      0     0 ?        S    20:01   0:00 [idle_inject/1]
+root          22  0.0  0.0      0     0 ?        S    20:01   0:00 [migration/1]
+root          23  0.0  0.0      0     0 ?        S    20:01   0:00 [ksoftirqd/1]
+root          25  0.0  0.0      0     0 ?        I<   20:01   0:00 [kworker/1:0H-events_highpri]
+root          26  0.0  0.0      0     0 ?        S    20:01   0:00 [cpuhp/2]
+root          27  0.0  0.0      0     0 ?        S    20:01   0:00 [idle_inject/2]
+root          28  0.0  0.0      0     0 ?        S    20:01   0:00 [migration/2]
+root          29  0.0  0.0      0     0 ?        S    20:01   0:00 [ksoftirqd/2]
+root          31  0.0  0.0      0     0 ?        I<   20:01   0:00 [kworker/2:0H-events_highpri]
+root          32  0.0  0.0      0     0 ?        S    20:01   0:00 [cpuhp/3]
+root          33  0.0  0.0      0     0 ?        S    20:01   0:00 [idle_inject/3]
+root          34  0.0  0.0      0     0 ?        S    20:01   0:00 [migration/3]
+root          35  0.0  0.0      0     0 ?        S    20:01   0:00 [ksoftirqd/3]
+root          37  0.0  0.0      0     0 ?        I<   20:01   0:00 [kworker/3:0H-events_highpri]
+root          38  0.0  0.0      0     0 ?        S    20:01   0:00 [cpuhp/4]
+root          39  0.0  0.0      0     0 ?        S    20:01   0:00 [idle_inject/4]
+root          40  0.0  0.0      0     0 ?        S    20:01   0:01 [migration/4]
+root          41  0.0  0.0      0     0 ?        S    20:01   0:00 [ksoftirqd/4]
+root          43  0.0  0.0      0     0 ?        I<   20:01   0:00 [kworker/4:0H-events_highpri]
+root          44  0.0  0.0      0     0 ?        S    20:01   0:00 [cpuhp/5]
+root          45  0.0  0.0      0     0 ?        S    20:01   0:00 [idle_inject/5]
+root          46  0.0  0.0      0     0 ?        S    20:01   0:01 [migration/5]
+root          47  0.0  0.0      0     0 ?        S    20:01   0:00 [ksoftirqd/5]
+root          49  0.0  0.0      0     0 ?        I<   20:01   0:00 [kworker/5:0H-events_highpri]
+root          50  0.0  0.0      0     0 ?        S    20:01   0:00 [cpuhp/6]
+root          51  0.0  0.0      0     0 ?        S    20:01   0:00 [idle_inject/6]
+root          52  0.0  0.0      0     0 ?        S    20:01   0:01 [migration/6]
+root          53  0.0  0.0      0     0 ?        S    20:01   0:00 [ksoftirqd/6]
+root          55  0.0  0.0      0     0 ?        I<   20:01   0:00 [kworker/6:0H-events_highpri]
+root          56  0.0  0.0      0     0 ?        S    20:01   0:00 [cpuhp/7]
+root          57  0.0  0.0      0     0 ?        S    20:01   0:00 [idle_inject/7]
+root          58  0.0  0.0      0     0 ?        S    20:01   0:01 [migration/7]
+root          59  0.0  0.0      0     0 ?        S    20:01   0:00 [ksoftirqd/7]
+root          61  0.0  0.0      0     0 ?        I<   20:01   0:00 [kworker/7:0H-events_highpri]
+root          62  0.0  0.0      0     0 ?        S    20:01   0:00 [cpuhp/8]
+root          63  0.0  0.0      0     0 ?        S    20:01   0:00 [idle_inject/8]
+root          64  0.0  0.0      0     0 ?        S    20:01   0:01 [migration/8]
+root          65  0.0  0.0      0     0 ?        S    20:01   0:00 [ksoftirqd/8]
+root          67  0.0  0.0      0     0 ?        I<   20:01   0:00 [kworker/8:0H-events_highpri]
+root          68  0.0  0.0      0     0 ?        S    20:01   0:00 [cpuhp/9]
+root          69  0.0  0.0      0     0 ?        S    20:01   0:00 [idle_inject/9]
+root          70  0.0  0.0      0     0 ?        S    20:01   0:01 [migration/9]
+root          71  0.0  0.0      0     0 ?        S    20:01   0:00 [ksoftirqd/9]
+root          73  0.0  0.0      0     0 ?        I<   20:01   0:00 [kworker/9:0H-events_highpri]
+root          74  0.0  0.0      0     0 ?        S    20:01   0:00 [cpuhp/10]
+root          75  0.0  0.0      0     0 ?        S    20:01   0:00 [idle_inject/10]
+root          76  0.0  0.0      0     0 ?        S    20:01   0:01 [migration/10]
+root          77  0.0  0.0      0     0 ?        S    20:01   0:00 [ksoftirqd/10]
+root          79  0.0  0.0      0     0 ?        I<   20:01   0:00 [kworker/10:0H-events_highpri]
+root          80  0.0  0.0      0     0 ?        S    20:01   0:00 [cpuhp/11]
+root          81  0.0  0.0      0     0 ?        S    20:01   0:00 [idle_inject/11]
+root          82  0.0  0.0      0     0 ?        S    20:01   0:01 [migration/11]
+root          83  0.0  0.0      0     0 ?        S    20:01   0:00 [ksoftirqd/11]
+root          85  0.0  0.0      0     0 ?        I<   20:01   0:00 [kworker/11:0H-events_highpri]
+root          92  0.4  0.0      0     0 ?        I    20:01   0:31 [kworker/u24:6-i915]
+root          98  0.0  0.0      0     0 ?        S    20:01   0:00 [kdevtmpfs]
+root          99  0.0  0.0      0     0 ?        I<   20:01   0:00 [inet_frag_wq]
+root         100  0.0  0.0      0     0 ?        S    20:01   0:00 [kauditd]
+root         102  0.0  0.0      0     0 ?        S    20:01   0:00 [khungtaskd]
+root         103  0.0  0.0      0     0 ?        S    20:01   0:00 [oom_reaper]
+root         104  0.0  0.0      0     0 ?        I<   20:01   0:00 [writeback]
+root         105  0.0  0.0      0     0 ?        S    20:01   0:00 [kcompactd0]
+root         106  0.0  0.0      0     0 ?        SN   20:01   0:00 [ksmd]
+root         107  0.0  0.0      0     0 ?        SN   20:01   0:00 [khugepaged]
+root         108  0.0  0.0      0     0 ?        I<   20:01   0:00 [kintegrityd]
+root         109  0.0  0.0      0     0 ?        I<   20:01   0:00 [kblockd]
+root         110  0.0  0.0      0     0 ?        I<   20:01   0:00 [blkcg_punt_bio]
+root         115  0.0  0.0      0     0 ?        I    20:01   0:00 [kworker/7:1-events]
+root         118  0.0  0.0      0     0 ?        I    20:01   0:00 [kworker/10:1-events]
+root         120  0.0  0.0      0     0 ?        I    20:01   0:00 [kworker/3:1-mm_percpu_wq]
+root         121  0.0  0.0      0     0 ?        I<   20:02   0:00 [tpm_dev_wq]
+root         122  0.0  0.0      0     0 ?        I<   20:02   0:00 [edac-poller]
+root         123  0.0  0.0      0     0 ?        I<   20:02   0:00 [devfreq_wq]
+root         124  0.0  0.0      0     0 ?        I<   20:02   0:00 [kworker/4:1H-events_highpri]
+root         125  0.0  0.0      0     0 ?        S    20:02   0:00 [kswapd0]
+root         131  0.0  0.0      0     0 ?        I<   20:02   0:00 [kthrotld]
+root         133  0.0  0.0      0     0 ?        I<   20:02   0:00 [acpi_thermal_pm]
+root         134  0.0  0.0      0     0 ?        S    20:02   0:00 [xenbus_probe]
+root         135  0.0  0.0      0     0 ?        I<   20:02   0:00 [hfi-updates]
+root         138  0.0  0.0      0     0 ?        I<   20:02   0:00 [mld]
+root         139  0.0  0.0      0     0 ?        I<   20:02   0:00 [kworker/2:1H-kblockd]
+root         140  0.0  0.0      0     0 ?        I<   20:02   0:00 [ipv6_addrconf]
+root         145  0.0  0.0      0     0 ?        I<   20:02   0:00 [kstrp]
+root         150  0.0  0.0      0     0 ?        I<   20:02   0:00 [zswap-shrink]
+root         151  0.3  0.0      0     0 ?        I<   20:02   0:20 [kworker/u25:0-i915_flip]
+root         199  0.0  0.0      0     0 ?        I<   20:02   0:00 [kworker/0:1H-events_highpri]
+root         215  0.0  0.0      0     0 ?        I<   20:02   0:00 [kworker/9:1H-events_highpri]
+root         243  0.0  0.0      0     0 ?        I<   20:02   0:00 [kworker/6:1H-events_highpri]
+root         245  0.0  0.0      0     0 ?        I<   20:02   0:00 [kworker/11:1H-kblockd]
+root         246  0.0  0.0      0     0 ?        I<   20:02   0:00 [kworker/5:1H-events_highpri]
+root         247  0.0  0.0      0     0 ?        I<   20:02   0:00 [kworker/7:1H-events_highpri]
+root         248  0.0  0.0      0     0 ?        I<   20:02   0:00 [kworker/10:1H-events_highpri]
+root         249  0.0  0.0      0     0 ?        I<   20:02   0:00 [kworker/3:1H-events_highpri]
+root         250  0.0  0.0      0     0 ?        I<   20:02   0:00 [kworker/8:1H-events_highpri]
+root         251  0.0  0.0      0     0 ?        I<   20:02   0:00 [kworker/1:1H-kblockd]
+root         252  0.0  0.0      0     0 ?        I<   20:02   0:00 [cryptd]
+root         281  0.0  0.0      0     0 ?        I<   20:02   0:00 [nvme-wq]
+root         282  0.0  0.0      0     0 ?        I<   20:02   0:00 [nvme-reset-wq]
+root         283  0.0  0.0      0     0 ?        I<   20:02   0:00 [nvme-delete-wq]
+root         296  0.3  0.0      0     0 ?        S    20:02   0:23 [irq/140-ELAN0790:00]
+root         301  0.0  0.0      0     0 ?        I<   20:02   0:00 [ttm]
+root         310  0.0  0.0      0     0 ?        I<   20:02   0:00 [ttm]
+root         314  0.0  0.0      0     0 ?        S    20:02   0:00 [card1-crtc0]
+root         315  0.0  0.0      0     0 ?        S    20:02   0:00 [card1-crtc1]
+root         316  0.0  0.0      0     0 ?        S    20:02   0:00 [card1-crtc2]
+root         317  0.0  0.0      0     0 ?        S    20:02   0:00 [card1-crtc3]
+root         364  0.0  0.0      0     0 ?        S    20:02   0:00 [jbd2/nvme0n1p6-8]
+root         365  0.0  0.0      0     0 ?        I<   20:02   0:00 [ext4-rsv-conver]
+root         426  0.0  0.0  49948 15380 ?        Ss   20:02   0:00 /lib/systemd/systemd-journald
+root         469  0.4  0.0  28404  7464 ?        Ss   20:02   0:26 /lib/systemd/systemd-udevd
+root         470  0.0  0.0      0     0 ?        S    20:02   0:00 [psimon]
+root         509  0.0  0.0      0     0 ?        S    20:02   0:00 [psimon]
+root         592  0.0  0.0      0     0 ?        S    20:02   0:00 [watchdogd]
+root         593  0.0  0.0      0     0 ?        S    20:02   0:00 [irq/143-mei_me]
+root         658  0.0  0.0      0     0 ?        I<   20:02   0:00 [cfg80211]
+root         676  0.0  0.0      0     0 ?        I<   20:02   0:00 [kworker/u25:2-hci0]
+root         677  0.0  0.0      0     0 ?        S    20:02   0:00 [irq/146-AudioDSP]
+root         680  0.1  0.0      0     0 ?        S    20:02   0:08 [napi/phy0-8193]
+root         681  0.0  0.0      0     0 ?        S    20:02   0:00 [napi/phy0-8194]
+root         682  0.0  0.0      0     0 ?        S    20:02   0:06 [napi/phy0-8195]
+root         740  0.0  0.0   8264  7472 ?        Ss   20:02   0:00 /usr/sbin/haveged --Foreground --verbose=1
+systemd+     743  0.0  0.0  90424  7552 ?        Ssl  20:02   0:00 /lib/systemd/systemd-timesyncd
+root         769  0.0  0.0      0     0 ?        I<   20:02   0:00 [rpciod]
+root         770  0.0  0.0      0     0 ?        I<   20:02   0:00 [xprtiod]
+root         776  0.0  0.0      0     0 ?        S    20:02   0:00 [psimon]
+root         778  0.0  0.0   7016  2560 ?        Ss   20:02   0:00 /usr/sbin/cron -f
+message+     779  0.1  0.0  10760  5120 ?        Ss   20:02   0:09 /usr/bin/dbus-daemon --system --address=systemd: --nofork --no
+polkitd      781  0.0  0.0 387696  9636 ?        Ssl  20:02   0:00 /usr/lib/polkit-1/polkitd --no-debug
+root         782  0.0  0.0  11652  5888 ?        Ss   20:02   0:00 /usr/sbin/smartd -n
+root         783  0.0  0.0  17484  8308 ?        Ss   20:02   0:00 /lib/systemd/systemd-logind
+root         791  0.0  0.1 333492 21044 ?        Ssl  20:02   0:01 /usr/sbin/NetworkManager --no-daemon
+root         810  0.0  0.0 391204 13496 ?        Ssl  20:02   0:00 /usr/sbin/ModemManager
+root         830  0.0  0.0      0     0 ?        S    20:02   0:00 [psimon]
+root         848  0.0  0.0 382652  9112 ?        SLsl 20:02   0:00 /usr/sbin/lightdm
+root         861  9.2  0.8 2237580 129632 tty7   Ssl+ 20:02   9:49 /usr/lib/xorg/Xorg :0 -seat seat0 -auth /var/run/lightdm/root/
+root         862  0.0  0.0   5896  1920 tty1     Ss+  20:02   0:00 /sbin/agetty -o -p -- \u --noclear - linux
+root         888  0.0  0.0      0     0 ?        S    20:02   0:04 [mt76-tx phy0]
+root         921  0.0  0.0  17332 11264 ?        Ss   20:02   0:00 /sbin/wpa_supplicant -u -s -O DIR=/run/wpa_supplicant GROUP=ne
+root         929  0.0  0.0      0     0 ?        S    20:02   0:00 [psimon]
+rtkit        960  0.0  0.0  22776  3328 ?        SNsl 20:02   0:00 /usr/libexec/rtkit-daemon
+root        1113  0.0  0.0 236344  8348 ?        Sl   20:02   0:00 lightdm --session-child 15 26
+root        1117  0.0  0.0      0     0 ?        I    20:02   0:00 [kworker/3:2]
+ikktaa      1125  0.0  0.0  19916 11520 ?        Ss   20:02   0:00 /lib/systemd/systemd --user
+ikktaa      1126  0.0  0.0  22420  5472 ?        S    20:02   0:00 (sd-pam)
+root        1140  0.0  0.0      0     0 ?        S    20:02   0:00 [psimon]
+ikktaa      1142  0.0  0.1 138660 17492 ?        S<sl 20:02   0:01 /usr/bin/pipewire
+ikktaa      1143  0.0  0.0  94740  5632 ?        Ssl  20:02   0:00 /usr/bin/pipewire -c filter-chain.conf
+ikktaa      1144  0.0  0.1 412076 21940 ?        S<sl 20:02   0:00 /usr/bin/wireplumber
+ikktaa      1145  0.0  0.1 128944 26012 ?        S<Lsl 20:02   0:01 /usr/bin/pipewire-pulse
+ikktaa      1147  0.0  0.0 314600  9856 ?        SLsl 20:02   0:00 /usr/bin/gnome-keyring-daemon --foreground --components=pkcs11
+ikktaa      1149  0.0  0.0   9836  5120 ?        Ss   20:02   0:00 /usr/bin/dbus-daemon --session --address=systemd: --nofork --n
+ikktaa      1171  0.0  0.1 341560 28468 ?        Ssl  20:02   0:01 xfce4-session
+ikktaa      1219  0.0  0.0   7908  1780 ?        Ss   20:02   0:00 /usr/bin/ssh-agent x-session-manager
+ikktaa      1229  0.0  0.0 385036  9676 ?        Ssl  20:02   0:00 /usr/libexec/at-spi-bus-launcher
+ikktaa      1236  0.0  0.0   9360  4736 ?        S    20:02   0:00 /usr/bin/dbus-daemon --config-file=/usr/share/defaults/at-spi2
+ikktaa      1247  0.0  0.0 238340  9892 ?        Sl   20:02   0:01 /usr/libexec/at-spi2-registryd --use-gnome-session
+ikktaa      1260  0.0  0.0  81684  5196 ?        SLs  20:02   0:00 /usr/bin/gpg-agent --supervised
+ikktaa      1262  2.5  0.6 1404272 106944 ?      Sl   20:02   2:42 xfwm4 --display :0.0 --sm-client-id 24ba8703a-8dd8-4389-9b45-2
+ikktaa      1266  0.0  0.0 312188  9340 ?        Ssl  20:02   0:00 /usr/libexec/gvfsd
+ikktaa      1272  0.0  0.0 457652 10376 ?        Sl   20:02   0:00 /usr/libexec/gvfsd-fuse /run/user/1000/gvfs -f
+ikktaa      1298  0.0  0.1 305584 31644 ?        Sl   20:02   0:01 xfsettingsd --display :0.0 --sm-client-id 28620b183-4b3a-4304-
+root        1302  0.1  0.0 310940 10456 ?        Ssl  20:02   0:07 /usr/libexec/upowerd
+ikktaa      1303  0.0  0.0 310964  8808 ?        Ssl  20:02   0:00 /usr/libexec/xdg-permission-store
+ikktaa      1313  0.1  0.2 541820 47924 ?        Sl   20:02   0:07 xfce4-panel --display :0.0 --sm-client-id 27b3a16f8-4ea1-46f6-
+ikktaa      1318  0.0  0.1 341452 28324 ?        Sl   20:02   0:00 Thunar --sm-client-id 2244b5c70-14da-4ccd-a245-b2e0f2cf82b0 --
+ikktaa      1323  0.0  0.3 489384 62744 ?        Sl   20:02   0:01 xfdesktop --display :0.0 --sm-client-id 225d5755c-6223-422f-86
+ikktaa      1327  0.0  0.3 467044 49384 ?        Sl   20:02   0:00 /usr/lib/x86_64-linux-gnu/xfce4/panel/wrapper-2.0 /usr/lib/x86
+ikktaa      1331  0.4  0.3 308824 53480 ?        Sl   20:02   0:28 /usr/lib/x86_64-linux-gnu/xfce4/panel/wrapper-2.0 /usr/lib/x86
+ikktaa      1332  0.0  0.1 413980 28964 ?        Sl   20:02   0:00 /usr/lib/x86_64-linux-gnu/xfce4/panel/wrapper-2.0 /usr/lib/x86
+ikktaa      1333  0.2  0.2 466720 40708 ?        Sl   20:02   0:18 /usr/lib/x86_64-linux-gnu/xfce4/panel/wrapper-2.0 /usr/lib/x86
+ikktaa      1334  0.0  0.2 469988 42820 ?        Sl   20:02   0:00 /usr/lib/x86_64-linux-gnu/xfce4/panel/wrapper-2.0 /usr/lib/x86
+ikktaa      1335  0.0  0.2 473012 45972 ?        Sl   20:02   0:00 /usr/lib/x86_64-linux-gnu/xfce4/panel/wrapper-2.0 /usr/lib/x86
+ikktaa      1336  0.2  0.2 465392 44308 ?        Sl   20:02   0:13 /usr/lib/x86_64-linux-gnu/xfce4/panel/wrapper-2.0 /usr/lib/x86
+ikktaa      1343  0.0  0.2 465232 44716 ?        Sl   20:02   0:00 /usr/lib/x86_64-linux-gnu/xfce4/panel/wrapper-2.0 /usr/lib/x86
+ikktaa      1374 46.9  4.8 14108100 781956 ?     Sl   20:02  49:55 /usr/lib/firefox-esr/firefox-esr --sm-client-id 2f421ca46-294e
+ikktaa      1375  0.0  0.1 266528 25292 ?        Sl   20:02   0:01 xfce4-power-manager --restart --sm-client-id 2c376e69a-6188-4e
+ikktaa      1398  0.0  0.2 465872 43220 ?        Ssl  20:02   0:00 /usr/lib/x86_64-linux-gnu/xfce4/notifyd/xfce4-notifyd
+ikktaa      1409  0.0  0.1 497576 31472 ?        Sl   20:02   0:00 light-locker
+ikktaa      1417  0.0  0.0 530904 12332 ?        Sl   20:02   0:00 xiccd
+ikktaa      1428  0.0  0.1 260404 20256 ?        Sl   20:02   0:00 /usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1
+colord      1439  0.0  0.0 317000 14648 ?        Ssl  20:02   0:00 /usr/libexec/colord
+ikktaa      1451  0.0  0.3 448768 51056 ?        Sl   20:02   0:00 /usr/bin/python3 /usr/bin/blueman-applet
+ikktaa      1458  0.0  0.0 230212  5504 ?        Ssl  20:02   0:00 /usr/libexec/dconf-service
+ikktaa      1475  0.0  0.3 560064 50996 ?        Sl   20:02   0:01 nm-applet
+ikktaa      1486  0.0  0.0  14644  4068 ?        Ssl  20:02   0:00 xcape -e Super_L Control_L Escape
+ikktaa      1487  0.0  0.0 381968  9924 ?        Sl   20:02   0:00 /usr/libexec/geoclue-2.0/demos/agent
+root        1520  0.0  0.0  96852  3584 ?        Ssl  20:02   0:00 /usr/sbin/pcscd --foreground --auto-exit
+ikktaa      1619  0.0  0.0 474752 15536 ?        Ssl  20:02   0:00 /usr/libexec/xdg-desktop-portal
+ikktaa      1629  0.0  0.0 534736 11048 ?        Ssl  20:02   0:00 /usr/libexec/xdg-document-portal
+root        1635  0.0  0.0   2484  1792 ?        Ss   20:02   0:00 fusermount3 -o rw,nosuid,nodev,fsname=portal,auto_unmount,subt
+ikktaa      1641  0.0  0.1 410168 22860 ?        Ssl  20:02   0:00 /usr/libexec/xdg-desktop-portal-gtk
+ikktaa      1660  0.0  0.0  48888  7936 ?        Ss   20:02   0:00 /usr/libexec/bluetooth/obexd
+ikktaa      1711  0.0  0.0 426176 14696 ?        Ssl  20:02   0:00 /usr/libexec/gvfs-udisks2-volume-monitor
+root        1718  0.0  0.1 471348 19240 ?        Ssl  20:02   0:00 /usr/libexec/udisks2/udisksd
+ikktaa      1728  0.0  0.2 217452 37504 ?        Sl   20:02   0:00 /usr/lib/firefox-esr/firefox-esr -contentproc -parentBuildID 2
+ikktaa      1744  0.0  0.0 308788 10428 ?        Ssl  20:02   0:00 /usr/libexec/gvfs-gphoto2-volume-monitor
+ikktaa      1757  0.0  0.0 307700  7844 ?        Ssl  20:02   0:00 /usr/libexec/gvfs-mtp-volume-monitor
+ikktaa      1762  0.0  0.0 386696 11476 ?        Ssl  20:02   0:00 /usr/libexec/gvfs-afc-volume-monitor
+ikktaa      1768  0.0  0.0 307696  7988 ?        Ssl  20:02   0:00 /usr/libexec/gvfs-goa-volume-monitor
+ikktaa      1820  0.0  0.0 386192  9968 ?        Sl   20:02   0:00 /usr/libexec/gvfsd-trash --spawner :1.20 /org/gtk/gvfs/exec_sp
+ikktaa      1826  0.0  0.8 2524980 140492 ?      Sl   20:02   0:03 /usr/lib/firefox-esr/firefox-esr -contentproc -childID 1 -isFo
+ikktaa      1831  0.0  0.0 234228  8064 ?        Ssl  20:02   0:00 /usr/libexec/gvfsd-metadata
+ikktaa      2140  0.0  0.6 2452656 97880 ?       Sl   20:02   0:00 /usr/lib/firefox-esr/firefox-esr -contentproc -childID 5 -isFo
+ikktaa      2223  0.5  1.6 2919920 270596 ?      Sl   20:02   0:32 /usr/lib/firefox-esr/firefox-esr -contentproc -childID 6 -isFo
+ikktaa      2235  0.4  1.8 2926376 290412 ?      Sl   20:02   0:29 /usr/lib/firefox-esr/firefox-esr -contentproc -childID 7 -isFo
+ikktaa      2317  0.1  0.7 686700 116916 ?       Sl   20:02   0:10 /usr/lib/firefox-esr/firefox-esr -contentproc -parentBuildID 2
+ikktaa      2320  0.0  0.3 361604 55148 ?        Sl   20:02   0:05 /usr/lib/firefox-esr/firefox-esr -contentproc -parentBuildID 2
+ikktaa      2355  0.4  2.6 11539088 431484 ?     Sl   20:02   0:28 /usr/lib/firefox-esr/firefox-esr -contentproc -childID 10 -isF
+ikktaa      3571  2.9  1.4 2695264 239512 ?      Sl   20:03   3:04 /usr/lib/firefox-esr/firefox-esr -contentproc -childID 17 -isF
+ikktaa     14543  2.4  2.9 3093468 475604 ?      Sl   20:22   2:07 /usr/lib/firefox-esr/firefox-esr -contentproc -childID 28 -isF
+ikktaa     15429  3.6  3.0 3291408 493752 ?      Sl   20:24   3:05 /usr/lib/firefox-esr/firefox-esr -contentproc -childID 30 -isF
+root       18021  0.0  0.0      0     0 ?        I    20:28   0:00 [kworker/1:0-events]
+root       22862  0.2  0.0      0     0 ?        I    20:37   0:12 [kworker/4:2-events]
+root       35212  0.4  0.0      0     0 ?        I    21:00   0:11 [kworker/u24:1-flush-259:0]
+root       35507  0.0  0.0      0     0 ?        I    21:00   0:00 [kworker/1:1]
+root       40049  0.0  0.0      0     0 ?        I    21:08   0:00 [kworker/8:2-inet_frag_wq]
+root       41155  0.0  0.0      0     0 ?        I    21:10   0:00 [kworker/6:2-events]
+ikktaa     41164  0.5  0.7 2461720 120352 ?      Sl   21:10   0:12 /usr/lib/firefox-esr/firefox-esr -contentproc -childID 55 -isF
+root       41549  0.3  0.0      0     0 ?        I    21:11   0:07 [kworker/u24:0-phy0]
+root       44326  0.0  0.0      0     0 ?        I    21:16   0:00 [kworker/9:0-events]
+ikktaa     45793  0.3  0.9 2604484 144580 ?      Sl   21:18   0:06 /usr/lib/firefox-esr/firefox-esr -contentproc -childID 62 -isF
+ikktaa     45855  0.0  0.0 307460  5760 ?        Sl   21:18   0:00 /usr/lib/x86_64-linux-gnu/xfce4/xfconf/xfconfd
+root       46378  0.0  0.0      0     0 ?        I    21:19   0:00 [kworker/11:0]
+ikktaa     46985  0.3  0.6 1188968 111900 ?      Sl   21:19   0:06 /usr/bin/qterminal
+ikktaa     46996  0.0  0.0  10496  5940 pts/0    Ss+  21:19   0:00 /usr/bin/zsh
+ikktaa     49624  0.3  0.7 1189324 112644 ?      Sl   21:24   0:05 /proc/46985/exe
+ikktaa     49627  0.1  0.0  10692  6252 pts/2    Ss   21:24   0:02 /usr/bin/zsh
+root       49712  0.0  0.0      0     0 ?        I    21:24   0:00 [kworker/10:2-inet_frag_wq]
+ikktaa     49946  0.2  1.0 2527784 161968 ?      Sl   21:25   0:03 /usr/lib/firefox-esr/firefox-esr -contentproc -childID 64 -isF
+root       50589  0.0  0.0      0     0 ?        I    21:26   0:00 [kworker/5:1-events]
+ikktaa     50865  6.2  2.1 2901008 340456 ?      Sl   21:26   1:22 /usr/lib/firefox-esr/firefox-esr -contentproc -childID 67 -isF
+ikktaa     50985  4.5  2.1 2708556 352380 ?      Sl   21:26   1:00 /usr/lib/firefox-esr/firefox-esr -contentproc -childID 68 -isF
+root       51223  0.3  0.0      0     0 ?        I    21:27   0:03 [kworker/0:1-events]
+ikktaa     53143  0.2  0.7 2470916 121300 ?      Sl   21:30   0:02 /usr/lib/firefox-esr/firefox-esr -contentproc -childID 71 -isF
+root       53618  0.0  0.0      0     0 ?        I    21:31   0:00 [kworker/6:0-events]
+root       54091  0.0  0.0      0     0 ?        I    21:31   0:00 [kworker/8:0-mm_percpu_wq]
+ikktaa     54100  1.9  3.0 3192776 495024 ?      Sl   21:31   0:19 /usr/lib/firefox-esr/firefox-esr -contentproc -childID 74 -isF
+root       54257  0.0  0.0      0     0 ?        I    21:32   0:00 [kworker/2:1-inet_frag_wq]
+ikktaa     54412  0.0  0.5 2423024 87400 ?       Sl   21:32   0:00 /usr/lib/firefox-esr/firefox-esr -contentproc -childID 75 -isF
+root       56428  0.0  0.0      0     0 ?        I    21:35   0:00 [kworker/5:2-mm_percpu_wq]
+root       56499  0.0  0.0      0     0 ?        I    21:36   0:00 [kworker/11:1-events]
+root       57184  0.0  0.0  10548  4608 pts/2    S+   21:37   0:00 sudo openvpn its-onefile-2.ovpn
+root       57185  0.0  0.0  10548  1556 pts/3    Ss   21:37   0:00 sudo openvpn its-onefile-2.ovpn
+root       57186  0.1  0.0  13856  9472 pts/3    S+   21:37   0:00 openvpn its-onefile-2.ovpn
+root       57340  0.0  0.0      0     0 ?        I    21:37   0:00 [kworker/9:2]
+root       57519  0.0  0.0      0     0 ?        I    21:37   0:00 [kworker/2:2-events]
+ikktaa     57942  1.0  0.7 1190060 113100 ?      Sl   21:38   0:06 /proc/49624/exe
+ikktaa     57945  0.4  0.0  14036  6936 pts/1    Ss   21:38   0:03 /usr/bin/zsh
+ikktaa     59469  0.0  0.7 6703460 112292 ?      Sl   21:40   0:00 /usr/lib/firefox-esr/firefox-esr -contentproc -childID 80 -isF
+root       59532  0.0  0.0      0     0 ?        I    21:40   0:00 [kworker/7:2-events]
+ikktaa     59541  0.0  0.4 2415032 71496 ?       Sl   21:40   0:00 /usr/lib/firefox-esr/firefox-esr -contentproc -childID 81 -isF
+root       60785  0.0  0.0      0     0 ?        I    21:42   0:00 [kworker/4:1-events]
+ikktaa     60802  0.0  0.4 2415032 71296 ?       Sl   21:42   0:00 /usr/lib/firefox-esr/firefox-esr -contentproc -childID 82 -isF
+root       61099  0.0  0.0      0     0 ?        I    21:43   0:00 [kworker/0:0-events]
+root       61485  0.6  0.0      0     0 ?        I    21:44   0:01 [kworker/u24:2-mt76]
+root       61486  0.0  0.0      0     0 ?        I    21:44   0:00 [kworker/u24:3]
+root       61789  0.0  0.0      0     0 ?        I    21:44   0:00 [kworker/5:0-events]
+root       63891  0.0  0.0  28408  5444 ?        S    21:48   0:00 (udev-worker)
+root       63910  0.0  0.0      0     0 ?        I    21:48   0:00 [kworker/0:2]
+ikktaa     63926  0.0  0.0  11728  4480 pts/1    R+   21:48   0:00 ps aux
+                                                                                                                                 
+┌──(ikktaa㉿Ikktaa)-[~/Downloads/ilovelinux/latihan]
+└─$ cat /etc/passwd 
+root:x:0:0:root:/root:/usr/bin/zsh
+daemon:x:1:1:daemon:/usr/sbin:/usr/sbin/nologin
+bin:x:2:2:bin:/bin:/usr/sbin/nologin
+sys:x:3:3:sys:/dev:/usr/sbin/nologin
+sync:x:4:65534:sync:/bin:/bin/sync
+games:x:5:60:games:/usr/games:/usr/sbin/nologin
+man:x:6:12:man:/var/cache/man:/usr/sbin/nologin
+lp:x:7:7:lp:/var/spool/lpd:/usr/sbin/nologin
+mail:x:8:8:mail:/var/mail:/usr/sbin/nologin
+news:x:9:9:news:/var/spool/news:/usr/sbin/nologin
+uucp:x:10:10:uucp:/var/spool/uucp:/usr/sbin/nologin
+proxy:x:13:13:proxy:/bin:/usr/sbin/nologin
+www-data:x:33:33:www-data:/var/www:/usr/sbin/nologin
+backup:x:34:34:backup:/var/backups:/usr/sbin/nologin
+list:x:38:38:Mailing List Manager:/var/list:/usr/sbin/nologin
+irc:x:39:39:ircd:/run/ircd:/usr/sbin/nologin
+_apt:x:42:65534::/nonexistent:/usr/sbin/nologin
+nobody:x:65534:65534:nobody:/nonexistent:/usr/sbin/nologin
+systemd-network:x:998:998:systemd Network Management:/:/usr/sbin/nologin
+mysql:x:100:107:MySQL Server,,,:/nonexistent:/bin/false
+tss:x:101:108:TPM software stack,,,:/var/lib/tpm:/bin/false
+strongswan:x:102:65534::/var/lib/strongswan:/usr/sbin/nologin
+systemd-timesync:x:997:997:systemd Time Synchronization:/:/usr/sbin/nologin
+redsocks:x:103:110::/var/run/redsocks:/usr/sbin/nologin
+rwhod:x:104:65534::/var/spool/rwho:/usr/sbin/nologin
+_gophish:x:105:112::/var/lib/gophish:/usr/sbin/nologin
+iodine:x:106:65534::/run/iodine:/usr/sbin/nologin
+messagebus:x:107:113::/nonexistent:/usr/sbin/nologin
+tcpdump:x:108:114::/nonexistent:/usr/sbin/nologin
+miredo:x:109:65534::/var/run/miredo:/usr/sbin/nologin
+redis:x:110:117::/var/lib/redis:/usr/sbin/nologin
+usbmux:x:111:46:usbmux daemon,,,:/var/lib/usbmux:/usr/sbin/nologin
+mosquitto:x:112:119::/var/lib/mosquitto:/usr/sbin/nologin
+sshd:x:113:65534::/run/sshd:/usr/sbin/nologin
+_rpc:x:114:65534::/run/rpcbind:/usr/sbin/nologin
+dnsmasq:x:115:65534:dnsmasq,,,:/var/lib/misc:/usr/sbin/nologin
+statd:x:116:65534::/var/lib/nfs:/usr/sbin/nologin
+avahi:x:117:123:Avahi mDNS daemon,,,:/run/avahi-daemon:/usr/sbin/nologin
+stunnel4:x:996:996:stunnel service system account:/var/run/stunnel4:/usr/sbin/nologin
+Debian-snmp:x:118:124::/var/lib/snmp:/bin/false
+_gvm:x:119:125::/var/lib/openvas:/usr/sbin/nologin
+speech-dispatcher:x:120:29:Speech Dispatcher,,,:/run/speech-dispatcher:/bin/false
+sslh:x:121:126::/nonexistent:/usr/sbin/nologin
+postgres:x:122:127:PostgreSQL administrator,,,:/var/lib/postgresql:/bin/bash
+pulse:x:123:129:PulseAudio daemon,,,:/run/pulse:/usr/sbin/nologin
+inetsim:x:124:131::/var/lib/inetsim:/usr/sbin/nologin
+lightdm:x:125:132:Light Display Manager:/var/lib/lightdm:/bin/false
+geoclue:x:126:133::/var/lib/geoclue:/usr/sbin/nologin
+saned:x:127:135::/var/lib/saned:/usr/sbin/nologin
+polkitd:x:994:994:polkit:/nonexistent:/usr/sbin/nologin
+rtkit:x:128:136:RealtimeKit,,,:/proc:/usr/sbin/nologin
+colord:x:129:137:colord colour management daemon,,,:/var/lib/colord:/usr/sbin/nologin
+nm-openvpn:x:130:138:NetworkManager OpenVPN,,,:/var/lib/openvpn/chroot:/usr/sbin/nologin
+nm-openconnect:x:131:139:NetworkManager OpenConnect plugin,,,:/var/lib/NetworkManager:/usr/sbin/nologin
+ikktaa:x:1000:1000:Ikktaa,,,:/home/ikktaa:/usr/bin/zsh
+                                                                                                                                 
+┌──(ikktaa㉿Ikktaa)-[~/Downloads/ilovelinux/latihan]
+└─$ cat -d : -f 1 /etc/passwd
+cat: invalid option -- 'd'
+Try 'cat --help' for more information.
+                                                                                                                                 
+┌──(ikktaa㉿Ikktaa)-[~/Downloads/ilovelinux/latihan]
+└─$ cut -d : -f 1 /etc/passwd
+root
+daemon
+bin
+sys
+sync
+games
+man
+lp
+mail
+news
+uucp
+proxy
+www-data
+backup
+list
+irc
+_apt
+nobody
+systemd-network
+mysql
+tss
+strongswan
+systemd-timesync
+redsocks
+rwhod
+_gophish
+iodine
+messagebus
+tcpdump
+miredo
+redis
+usbmux
+mosquitto
+sshd
+_rpc
+dnsmasq
+statd
+avahi
+stunnel4
+Debian-snmp
+_gvm
+speech-dispatcher
+sslh
+postgres
+pulse
+inetsim
+lightdm
+geoclue
+saned
+polkitd
+rtkit
+colord
+nm-openvpn
+nm-openconnect
+ikktaa
+                                                                                                                                 
+┌──(ikktaa㉿Ikktaa)-[~/Downloads/ilovelinux/latihan]
+└─$ sudo adduser jagosisop   
+[sudo] password for ikktaa: 
+info: Adding user `jagosisop' ...
+info: Selecting UID/GID from range 1000 to 59999 ...
+info: Adding new group `jagosisop' (1001) ...
+info: Adding new user `jagosisop' (1001) with group `jagosisop (1001)' ...
+info: Creating home directory `/home/jagosisop' ...
+info: Copying files from `/etc/skel' ...
+New password: 
+Retype new password: 
+passwd: password updated successfully
+Changing the user information for jagosisop
+Enter the new value, or press ENTER for the default
+        Full Name []: jagosisop
+        Room Number []: 
+        Work Phone []: 
+        Home Phone []: 
+        Other []: 
+Is the information correct? [Y/n] Y
+info: Adding new user `jagosisop' to supplemental / extra groups `users' ...
+info: Adding user `jagosisop' to group `users' ...
+                                                                                                                                 
+┌──(ikktaa㉿Ikktaa)-[~/Downloads/ilovelinux/latihan]
+└─$ sudo groupadd sudoers 
+                                                                                                                                 
+┌──(ikktaa㉿Ikktaa)-[~/Downloads/ilovelinux/latihan]
+└─$ sudo usermod -aG sudoers jagosisop
+                                                                                                                                 
+┌──(ikktaa㉿Ikktaa)-[~/Downloads/ilovelinux/latihan]
+└─$ getent group suoders
+                                                                                                                                 
+┌──(ikktaa㉿Ikktaa)-[~/Downloads/ilovelinux/latihan]
+└─$ getent group sudoers
+sudoers:x:1002:jagosisop
+                                                                                                                                 
+┌──(ikktaa㉿Ikktaa)-[~/Downloads/ilovelinux/latihan]
+└─$ sudo -i -u jagosisop              
+┌──(jagosisop㉿Ikktaa)-[~]
+└─$ sudo mkdir analysis
+[sudo] password for jagosisop: 
+jagosisop is not in the sudoers file.
+
+┌──(jagosisop㉿Ikktaa)-[~]
+└─$ exit                                                                                                                         
+logout
+                                                                                                                                 
+┌──(ikktaa㉿Ikktaa)-[~/Downloads/ilovelinux/latihan]
+└─$ sudo usermod -aG sudo jagosisop   
+                                                                                                                                 
+┌──(ikktaa㉿Ikktaa)-[~/Downloads/ilovelinux/latihan]
+└─$ getent group sudo   
+sudo:x:27:ikktaa,jagosisop
+                                                                                                                                 
+┌──(ikktaa㉿Ikktaa)-[~/Downloads/ilovelinux/latihan]
+└─$ sudo -i -u jagosisop           
+┌──(jagosisop㉿Ikktaa)-[~]
+└─$ mkdir analysis                                                                                                               
+
+┌──(jagosisop㉿Ikktaa)-[~]
+└─$ exit                                                                                                                         
+logout
+                                                                                                                                 
+┌──(ikktaa㉿Ikktaa)-[~/Downloads/ilovelinux/latihan]
+└─$ ls -a 
+.  ..  .daemon  5bda90afcfd344fa33b8b33580cdbe7b.zip  S3cr3t_f1L3s.zip  S3cr3t_f1L3s.zip.1  runme  runme.log
+                                                                                                                                 
+┌──(ikktaa㉿Ikktaa)-[~/Downloads/ilovelinux/latihan]
+└─$ sudo unzip S3cr3t_f1L3s.zip 
+Archive:  S3cr3t_f1L3s.zip
+   creating: dump/
+   creating: dump/7PXcZw75Kv/
+   creating: dump/7PXcZw75Kv/H78NoiDUOF/
+  inflating: dump/7PXcZw75Kv/H78NoiDUOF/06-23-2023_10:57_PM.log  
+   creating: dump/7PXcZw75Kv/H78NoiDUOF/DN3cx6SLoF/
+  inflating: dump/7PXcZw75Kv/H78NoiDUOF/DN3cx6SLoF/02-07-2023_11:14_PM.log  
+   creating: dump/7PXcZw75Kv/H78NoiDUOF/DN3cx6SLoF/ufmHo96ljv/
+   creating: dump/BpiB4Xb0WH/
+   creating: dump/BpiB4Xb0WH/ZhBG7nYMPs/
+  inflating: dump/BpiB4Xb0WH/ZhBG7nYMPs/01-13-2023_02:23_AM.log  
+   creating: dump/BpiB4Xb0WH/ZhBG7nYMPs/C9FTgAnC6o/
+  inflating: dump/BpiB4Xb0WH/ZhBG7nYMPs/C9FTgAnC6o/05-02-2023_03:07_AM.log  
+   creating: dump/BpiB4Xb0WH/ZhBG7nYMPs/C9FTgAnC6o/dmpaTNflIp/
+  inflating: dump/BpiB4Xb0WH/ZhBG7nYMPs/C9FTgAnC6o/dmpaTNflIp/07-28-2023_12:29_AM.log  
+   creating: dump/BpiB4Xb0WH/ZhBG7nYMPs/C9FTgAnC6o/dmpaTNflIp/lJZ3KiPgKU/
+   creating: dump/czUT5NoIEO/
+   creating: dump/czUT5NoIEO/ONMaSDVNnN/
+  inflating: dump/czUT5NoIEO/ONMaSDVNnN/04-30-2023_09:33_PM.log  
+   creating: dump/czUT5NoIEO/ONMaSDVNnN/30yAzy36TT/
+  inflating: dump/czUT5NoIEO/ONMaSDVNnN/30yAzy36TT/01-03-2023_02:05_AM.log  
+   creating: dump/czUT5NoIEO/ONMaSDVNnN/30yAzy36TT/H4qNvzki0V/
+  inflating: dump/czUT5NoIEO/ONMaSDVNnN/30yAzy36TT/H4qNvzki0V/01-27-2023_07:16_AM.log  
+   creating: dump/czUT5NoIEO/ONMaSDVNnN/30yAzy36TT/H4qNvzki0V/ZXP4pp7MFP/
+   creating: dump/DWdwYzlv3i/
+   creating: dump/DWdwYzlv3i/kzfjdSDZLJ/
+  inflating: dump/DWdwYzlv3i/kzfjdSDZLJ/07-11-2023_11:43_AM.log  
+   creating: dump/DWdwYzlv3i/kzfjdSDZLJ/h6cF5SXwLs/
+   creating: dump/dXK40eZGoT/
+   creating: dump/dXK40eZGoT/4aJEyFG21a/
+  inflating: dump/dXK40eZGoT/4aJEyFG21a/02-06-2023_06:18_PM.log  
+   creating: dump/dXK40eZGoT/4aJEyFG21a/Tt6qarg9PJ/
+   creating: dump/fWC6i3JXm8/
+   creating: dump/fWC6i3JXm8/2QgVbGksas/
+  inflating: dump/fWC6i3JXm8/2QgVbGksas/05-09-2023_10:37_AM.log  
+   creating: dump/fWC6i3JXm8/2QgVbGksas/FYnfTc0bO0/
+  inflating: dump/fWC6i3JXm8/2QgVbGksas/FYnfTc0bO0/06-24-2023_05:33_AM.log  
+   creating: dump/fWC6i3JXm8/2QgVbGksas/FYnfTc0bO0/9vZV91ULMb/
+  inflating: dump/fWC6i3JXm8/2QgVbGksas/FYnfTc0bO0/9vZV91ULMb/01-06-2023_04:54_AM.log  
+   creating: dump/fWC6i3JXm8/2QgVbGksas/FYnfTc0bO0/9vZV91ULMb/mWG2OlEgwZ/
+   creating: dump/FXe1lvNI3a/
+   creating: dump/FXe1lvNI3a/pUCpL2KiIK/
+  inflating: dump/FXe1lvNI3a/pUCpL2KiIK/07-05-2023_06:14_PM.log  
+   creating: dump/FXe1lvNI3a/pUCpL2KiIK/z1VF5KH4xh/
+  inflating: dump/FXe1lvNI3a/pUCpL2KiIK/z1VF5KH4xh/01-18-2023_08:32_AM.log  
+   creating: dump/FXe1lvNI3a/pUCpL2KiIK/z1VF5KH4xh/FAJR5IJKHe/
+  inflating: dump/FXe1lvNI3a/pUCpL2KiIK/z1VF5KH4xh/FAJR5IJKHe/06-08-2023_11:22_PM.log  
+   creating: dump/FXe1lvNI3a/pUCpL2KiIK/z1VF5KH4xh/FAJR5IJKHe/QTdomX2DsB/
+   creating: dump/FXiGk3JunQ/
+   creating: dump/FXiGk3JunQ/E3Sv481Zl3/
+  inflating: dump/FXiGk3JunQ/E3Sv481Zl3/04-06-2023_01:19_AM.log  
+   creating: dump/FXiGk3JunQ/E3Sv481Zl3/3mrz6EpRMf/
+   creating: dump/GAZags508D/
+   creating: dump/GAZags508D/mGhfV4DJaw/
+  inflating: dump/GAZags508D/mGhfV4DJaw/03-04-2023_06:19_PM.log  
+   creating: dump/GAZags508D/mGhfV4DJaw/U94CanJil8/
+  inflating: dump/GAZags508D/mGhfV4DJaw/U94CanJil8/03-22-2023_01:30_PM.log  
+   creating: dump/GAZags508D/mGhfV4DJaw/U94CanJil8/bONr6jEKQg/
+  inflating: dump/GAZags508D/mGhfV4DJaw/U94CanJil8/bONr6jEKQg/02-25-2023_07:56_AM.log  
+   creating: dump/GAZags508D/mGhfV4DJaw/U94CanJil8/bONr6jEKQg/VPpDbH9HUk/
+   creating: dump/GDP8FcrzsT/
+   creating: dump/GDP8FcrzsT/204MyQfX6q/
+  inflating: dump/GDP8FcrzsT/204MyQfX6q/07-06-2023_08:19_AM.log  
+   creating: dump/GDP8FcrzsT/204MyQfX6q/OLFD3jlzYs/
+  inflating: dump/GDP8FcrzsT/204MyQfX6q/OLFD3jlzYs/03-22-2023_09:05_PM.log  
+   creating: dump/GDP8FcrzsT/204MyQfX6q/OLFD3jlzYs/6CoGdcFk10/
+  inflating: dump/GDP8FcrzsT/204MyQfX6q/OLFD3jlzYs/6CoGdcFk10/07-31-2023_08:27_AM.log  
+   creating: dump/GDP8FcrzsT/204MyQfX6q/OLFD3jlzYs/6CoGdcFk10/siVbwPqUeM/
+   creating: dump/gVPQhubGcZ/
+   creating: dump/gVPQhubGcZ/aBLckD8kq8/
+  inflating: dump/gVPQhubGcZ/aBLckD8kq8/01-25-2023_11:09_AM.log  
+   creating: dump/gVPQhubGcZ/aBLckD8kq8/FIoxrBQARQ/
+  inflating: dump/gVPQhubGcZ/aBLckD8kq8/FIoxrBQARQ/06-29-2023_06:25_PM.log  
+   creating: dump/gVPQhubGcZ/aBLckD8kq8/FIoxrBQARQ/WGhQP2cr4d/
+  inflating: dump/gVPQhubGcZ/aBLckD8kq8/FIoxrBQARQ/WGhQP2cr4d/01-09-2023_02:07_AM.log  
+   creating: dump/gVPQhubGcZ/aBLckD8kq8/FIoxrBQARQ/WGhQP2cr4d/2tpelxsZEU/
+   creating: dump/gvuDA0AAQr/
+   creating: dump/gvuDA0AAQr/67BzwH3QoC/
+  inflating: dump/gvuDA0AAQr/67BzwH3QoC/07-09-2023_10:32_AM.log  
+   creating: dump/gvuDA0AAQr/67BzwH3QoC/U3h4N2bb0B/
+  inflating: dump/gvuDA0AAQr/67BzwH3QoC/U3h4N2bb0B/05-30-2023_06:37_PM.log  
+   creating: dump/gvuDA0AAQr/67BzwH3QoC/U3h4N2bb0B/w5DQBNwBno/
+   creating: dump/he8vE8Y184/
+   creating: dump/he8vE8Y184/LY2gp6TC2t/
+  inflating: dump/he8vE8Y184/LY2gp6TC2t/07-10-2023_01:15_PM.log  
+   creating: dump/he8vE8Y184/LY2gp6TC2t/oALkmkEkqr/
+   creating: dump/HLzrYyQlgx/
+   creating: dump/HLzrYyQlgx/rlfUrzRvAy/
+  inflating: dump/HLzrYyQlgx/rlfUrzRvAy/01-04-2023_07:16_PM.log  
+   creating: dump/HLzrYyQlgx/rlfUrzRvAy/Sh3VcQtHjU/
+   creating: dump/Ho36cpL57c/
+   creating: dump/Ho36cpL57c/KQVPGiY27Z/
+  inflating: dump/Ho36cpL57c/KQVPGiY27Z/05-26-2023_10:18_AM.log  
+   creating: dump/Ho36cpL57c/KQVPGiY27Z/eiBmLC1v6o/
+  inflating: dump/Ho36cpL57c/KQVPGiY27Z/eiBmLC1v6o/06-13-2023_03:29_PM.log  
+   creating: dump/Ho36cpL57c/KQVPGiY27Z/eiBmLC1v6o/TaEu2u1H84/
+   creating: dump/I2HvX3Nnmu/
+   creating: dump/I2HvX3Nnmu/Bcbn1T7YCS/
+  inflating: dump/I2HvX3Nnmu/Bcbn1T7YCS/07-11-2023_10:42_PM.log  
+   creating: dump/I2HvX3Nnmu/Bcbn1T7YCS/AVEl49vgtB/
+  inflating: dump/I2HvX3Nnmu/Bcbn1T7YCS/AVEl49vgtB/05-06-2023_10:40_AM.log  
+   creating: dump/I2HvX3Nnmu/Bcbn1T7YCS/AVEl49vgtB/QviceLiC6Q/
+   creating: dump/Iir9DOlIB4/
+   creating: dump/Iir9DOlIB4/UOJhDJx3i0/
+  inflating: dump/Iir9DOlIB4/UOJhDJx3i0/05-08-2023_05:46_AM.log  
+   creating: dump/Iir9DOlIB4/UOJhDJx3i0/7RKEYcxZzC/
+   creating: dump/j9ltdRQIrW/
+   creating: dump/j9ltdRQIrW/FTZlNTWGdK/
+  inflating: dump/j9ltdRQIrW/FTZlNTWGdK/03-10-2023_01:47_AM.log  
+   creating: dump/j9ltdRQIrW/FTZlNTWGdK/IKuStrN5sT/
+  inflating: dump/j9ltdRQIrW/FTZlNTWGdK/IKuStrN5sT/05-16-2023_04:06_AM.log  
+   creating: dump/j9ltdRQIrW/FTZlNTWGdK/IKuStrN5sT/F7teCIqpoP/
+  inflating: dump/j9ltdRQIrW/FTZlNTWGdK/IKuStrN5sT/F7teCIqpoP/02-15-2023_06:56_AM.log  
+   creating: dump/j9ltdRQIrW/FTZlNTWGdK/IKuStrN5sT/F7teCIqpoP/QKW2jrsvc6/
+   creating: dump/kcDvNyTGji/
+   creating: dump/kcDvNyTGji/f7l82LOj1X/
+  inflating: dump/kcDvNyTGji/f7l82LOj1X/02-17-2023_03:02_AM.log  
+   creating: dump/kcDvNyTGji/f7l82LOj1X/YHBJAbEzLv/
+   creating: dump/kFV2l8BV3e/
+   creating: dump/kFV2l8BV3e/Xar8kRb7Op/
+  inflating: dump/kFV2l8BV3e/Xar8kRb7Op/01-16-2023_05:06_AM.log  
+   creating: dump/kFV2l8BV3e/Xar8kRb7Op/dfhrihBSXC/
+  inflating: dump/kFV2l8BV3e/Xar8kRb7Op/dfhrihBSXC/01-04-2023_02:53_PM.log  
+   creating: dump/kFV2l8BV3e/Xar8kRb7Op/dfhrihBSXC/VDQhxz6hOB/
+   creating: dump/lByGDkUtPE/
+   creating: dump/lByGDkUtPE/vIYovvOgx4/
+  inflating: dump/lByGDkUtPE/vIYovvOgx4/06-03-2023_11:54_AM.log  
+   creating: dump/lByGDkUtPE/vIYovvOgx4/SCVk4UVioK/
+  inflating: dump/lByGDkUtPE/vIYovvOgx4/SCVk4UVioK/05-29-2023_01:37_AM.log  
+   creating: dump/lByGDkUtPE/vIYovvOgx4/SCVk4UVioK/An0R4LlWy4/
+  inflating: dump/lByGDkUtPE/vIYovvOgx4/SCVk4UVioK/An0R4LlWy4/03-09-2023_05:29_AM.log  
+   creating: dump/lByGDkUtPE/vIYovvOgx4/SCVk4UVioK/An0R4LlWy4/jjAEtkjDxF/
+   creating: dump/lcl31HI5aY/
+   creating: dump/lcl31HI5aY/VMZcLigYsS/
+  inflating: dump/lcl31HI5aY/VMZcLigYsS/04-06-2023_08:15_PM.log  
+   creating: dump/lcl31HI5aY/VMZcLigYsS/O8y0caZAPF/
+   creating: dump/LOgPdgCGsG/
+   creating: dump/LOgPdgCGsG/6gPFAE8f83/
+  inflating: dump/LOgPdgCGsG/6gPFAE8f83/04-02-2023_08:25_PM.log  
+   creating: dump/LOgPdgCGsG/6gPFAE8f83/Dg9tIssxfu/
+   creating: dump/LRh6iwIrve/
+   creating: dump/LRh6iwIrve/EcIMAf4oW7/
+  inflating: dump/LRh6iwIrve/EcIMAf4oW7/04-30-2023_10:11_AM.log  
+   creating: dump/LRh6iwIrve/EcIMAf4oW7/zlCLNc9Ycy/
+  inflating: dump/LRh6iwIrve/EcIMAf4oW7/zlCLNc9Ycy/07-25-2023_01:33_PM.log  
+   creating: dump/LRh6iwIrve/EcIMAf4oW7/zlCLNc9Ycy/d5uk4Rq6lZ/
+  inflating: dump/LRh6iwIrve/EcIMAf4oW7/zlCLNc9Ycy/d5uk4Rq6lZ/01-13-2023_05:47_AM.log  
+   creating: dump/LRh6iwIrve/EcIMAf4oW7/zlCLNc9Ycy/d5uk4Rq6lZ/9U37spLnSR/
+   creating: dump/MC0rDKJaDh/
+   creating: dump/MC0rDKJaDh/zvIVxWX0TR/
+  inflating: dump/MC0rDKJaDh/zvIVxWX0TR/06-18-2023_02:05_PM.log  
+   creating: dump/MC0rDKJaDh/zvIVxWX0TR/8AOISBmahv/
+  inflating: dump/MC0rDKJaDh/zvIVxWX0TR/8AOISBmahv/04-21-2023_08:19_PM.log  
+   creating: dump/MC0rDKJaDh/zvIVxWX0TR/8AOISBmahv/Etcph7J0cG/
+  inflating: dump/MC0rDKJaDh/zvIVxWX0TR/8AOISBmahv/Etcph7J0cG/06-10-2023_10:19_AM.log  
+   creating: dump/MC0rDKJaDh/zvIVxWX0TR/8AOISBmahv/Etcph7J0cG/SJOndZfbeV/
+   creating: dump/miCNIK2XjV/
+   creating: dump/miCNIK2XjV/ezVQsmPJiS/
+  inflating: dump/miCNIK2XjV/ezVQsmPJiS/07-02-2023_11:38_PM.log  
+   creating: dump/miCNIK2XjV/ezVQsmPJiS/qhBCGoUWu4/
+  inflating: dump/miCNIK2XjV/ezVQsmPJiS/qhBCGoUWu4/02-18-2023_05:25_AM.log  
+   creating: dump/miCNIK2XjV/ezVQsmPJiS/qhBCGoUWu4/MufrGD2H32/
+  inflating: dump/miCNIK2XjV/ezVQsmPJiS/qhBCGoUWu4/MufrGD2H32/04-06-2023_11:54_AM.log  
+   creating: dump/miCNIK2XjV/ezVQsmPJiS/qhBCGoUWu4/MufrGD2H32/xbgXyhJWzH/
+   creating: dump/mwwzRNNVr4/
+   creating: dump/mwwzRNNVr4/Bi2K8241EF/
+  inflating: dump/mwwzRNNVr4/Bi2K8241EF/06-30-2023_01:43_AM.log  
+   creating: dump/mwwzRNNVr4/Bi2K8241EF/ADa63mxsoQ/
+   creating: dump/Mz4UwytH6Q/
+   creating: dump/Mz4UwytH6Q/hn9Equm5k2/
+  inflating: dump/Mz4UwytH6Q/hn9Equm5k2/03-13-2023_12:37_PM.log  
+   creating: dump/Mz4UwytH6Q/hn9Equm5k2/w4Wc4Ks2in/
+  inflating: dump/Mz4UwytH6Q/hn9Equm5k2/w4Wc4Ks2in/05-25-2023_07:42_AM.log  
+   creating: dump/Mz4UwytH6Q/hn9Equm5k2/w4Wc4Ks2in/1ZAmmLtS7e/
+  inflating: dump/Mz4UwytH6Q/hn9Equm5k2/w4Wc4Ks2in/1ZAmmLtS7e/04-04-2023_07:29_PM.log  
+   creating: dump/Mz4UwytH6Q/hn9Equm5k2/w4Wc4Ks2in/1ZAmmLtS7e/gBssCmiriH/
+   creating: dump/NftDzEAOtN/
+   creating: dump/NftDzEAOtN/GylIjD48vE/
+  inflating: dump/NftDzEAOtN/GylIjD48vE/05-28-2023_02:46_AM.log  
+   creating: dump/NftDzEAOtN/GylIjD48vE/PSBFnm7jAC/
+   creating: dump/NNmTmwy1C2/
+   creating: dump/NNmTmwy1C2/FiCYANgiAx/
+  inflating: dump/NNmTmwy1C2/FiCYANgiAx/02-02-2023_05:19_PM.log  
+   creating: dump/NNmTmwy1C2/FiCYANgiAx/RK3qnQl1ES/
+   creating: dump/opAiFF5WI9/
+   creating: dump/opAiFF5WI9/C9bRpMPFOL/
+  inflating: dump/opAiFF5WI9/C9bRpMPFOL/05-21-2023_04:36_AM.log  
+   creating: dump/opAiFF5WI9/C9bRpMPFOL/2ThnKXBZ0P/
+  inflating: dump/opAiFF5WI9/C9bRpMPFOL/2ThnKXBZ0P/04-18-2023_03:54_AM.log  
+   creating: dump/opAiFF5WI9/C9bRpMPFOL/2ThnKXBZ0P/SE6X0nN37k/
+  inflating: dump/opAiFF5WI9/C9bRpMPFOL/2ThnKXBZ0P/SE6X0nN37k/07-27-2023_04:11_PM.log  
+   creating: dump/opAiFF5WI9/C9bRpMPFOL/2ThnKXBZ0P/SE6X0nN37k/pEuMb0r5H2/
+   creating: dump/PSUb7xLiPN/
+   creating: dump/PSUb7xLiPN/uvDLJeagjF/
+  inflating: dump/PSUb7xLiPN/uvDLJeagjF/04-08-2023_05:16_PM.log  
+   creating: dump/PSUb7xLiPN/uvDLJeagjF/OozbnsrnTQ/
+  inflating: dump/PSUb7xLiPN/uvDLJeagjF/OozbnsrnTQ/05-21-2023_06:11_AM.log  
+   creating: dump/PSUb7xLiPN/uvDLJeagjF/OozbnsrnTQ/fKG3VhPpzq/
+  inflating: dump/PSUb7xLiPN/uvDLJeagjF/OozbnsrnTQ/fKG3VhPpzq/07-03-2023_07:56_AM.log  
+   creating: dump/PSUb7xLiPN/uvDLJeagjF/OozbnsrnTQ/fKG3VhPpzq/a2SUkKuKVd/
+   creating: dump/qFadfFFcoJ/
+   creating: dump/qFadfFFcoJ/4UAYHFw5E2/
+  inflating: dump/qFadfFFcoJ/4UAYHFw5E2/06-09-2023_05:27_PM.log  
+   creating: dump/qFadfFFcoJ/4UAYHFw5E2/gxCeGXMUNV/
+   creating: dump/RSrtciONeL/
+   creating: dump/RSrtciONeL/sEAke0L4rk/
+  inflating: dump/RSrtciONeL/sEAke0L4rk/01-06-2023_04:48_AM.log  
+   creating: dump/RSrtciONeL/sEAke0L4rk/yLBWrgNtm3/
+  inflating: dump/RSrtciONeL/sEAke0L4rk/yLBWrgNtm3/05-28-2023_10:18_PM.log  
+   creating: dump/RSrtciONeL/sEAke0L4rk/yLBWrgNtm3/Jy2nqpwtkT/
+  inflating: dump/RSrtciONeL/sEAke0L4rk/yLBWrgNtm3/Jy2nqpwtkT/07-15-2023_04:00_PM.log  
+   creating: dump/RSrtciONeL/sEAke0L4rk/yLBWrgNtm3/Jy2nqpwtkT/R4mUun1nGG/
+   creating: dump/s78xdIb24B/
+   creating: dump/s78xdIb24B/N20PpNRsX2/
+  inflating: dump/s78xdIb24B/N20PpNRsX2/05-08-2023_02:56_PM.log  
+   creating: dump/s78xdIb24B/N20PpNRsX2/yF6dKzfn2e/
+   creating: dump/SMt9JB74Q4/
+   creating: dump/SMt9JB74Q4/6k5GTBIwxu/
+  inflating: dump/SMt9JB74Q4/6k5GTBIwxu/07-19-2023_08:33_AM.log  
+   creating: dump/SMt9JB74Q4/6k5GTBIwxu/M6eaL2JImV/
+  inflating: dump/SMt9JB74Q4/6k5GTBIwxu/M6eaL2JImV/06-21-2023_05:09_PM.log  
+   creating: dump/SMt9JB74Q4/6k5GTBIwxu/M6eaL2JImV/bC1wOuu1C3/
+   creating: dump/spWxfw3b4M/
+   creating: dump/spWxfw3b4M/bvsI1sVvnF/
+  inflating: dump/spWxfw3b4M/bvsI1sVvnF/06-05-2023_05:41_AM.log  
+   creating: dump/spWxfw3b4M/bvsI1sVvnF/1baBOECEPb/
+  inflating: dump/spWxfw3b4M/bvsI1sVvnF/1baBOECEPb/06-27-2023_05:37_PM.log  
+   creating: dump/spWxfw3b4M/bvsI1sVvnF/1baBOECEPb/TGo3VuMXU8/
+  inflating: dump/spWxfw3b4M/bvsI1sVvnF/1baBOECEPb/TGo3VuMXU8/03-13-2023_10:35_PM.log  
+   creating: dump/spWxfw3b4M/bvsI1sVvnF/1baBOECEPb/TGo3VuMXU8/hduU0eK2ng/
+   creating: dump/TXExu1HD6H/
+   creating: dump/TXExu1HD6H/QKKtBA3Irt/
+  inflating: dump/TXExu1HD6H/QKKtBA3Irt/06-05-2023_03:31_AM.log  
+   creating: dump/TXExu1HD6H/QKKtBA3Irt/k0svV9WuRO/
+  inflating: dump/TXExu1HD6H/QKKtBA3Irt/k0svV9WuRO/05-21-2023_03:22_AM.log  
+   creating: dump/TXExu1HD6H/QKKtBA3Irt/k0svV9WuRO/oQrFhjmUCK/
+   creating: dump/UpkwyCmQSo/
+   creating: dump/UpkwyCmQSo/fjZeUzybdt/
+  inflating: dump/UpkwyCmQSo/fjZeUzybdt/01-24-2023_02:46_AM.log  
+   creating: dump/UpkwyCmQSo/fjZeUzybdt/JKsVgUZJNb/
+  inflating: dump/UpkwyCmQSo/fjZeUzybdt/JKsVgUZJNb/03-15-2023_03:54_PM.log  
+   creating: dump/UpkwyCmQSo/fjZeUzybdt/JKsVgUZJNb/ddZ5Ne7aW0/
+  inflating: dump/UpkwyCmQSo/fjZeUzybdt/JKsVgUZJNb/ddZ5Ne7aW0/07-04-2023_11:26_AM.log  
+   creating: dump/UpkwyCmQSo/fjZeUzybdt/JKsVgUZJNb/ddZ5Ne7aW0/ATRERkMtLc/
+   creating: dump/uuk97mtzup/
+   creating: dump/uuk97mtzup/v5KfBK7ZMX/
+  inflating: dump/uuk97mtzup/v5KfBK7ZMX/03-14-2023_12:19_PM.log  
+   creating: dump/uuk97mtzup/v5KfBK7ZMX/t3DBL2ePmQ/
+   creating: dump/WlYCQQSXwZ/
+   creating: dump/WlYCQQSXwZ/kK5eqiYUrt/
+  inflating: dump/WlYCQQSXwZ/kK5eqiYUrt/05-22-2023_04:57_PM.log  
+   creating: dump/WlYCQQSXwZ/kK5eqiYUrt/xS7prwTpI8/
+  inflating: dump/WlYCQQSXwZ/kK5eqiYUrt/xS7prwTpI8/07-05-2023_04:04_PM.log  
+   creating: dump/WlYCQQSXwZ/kK5eqiYUrt/xS7prwTpI8/x7sHUUmAXe/
+   creating: dump/WVjJWGR1fs/
+   creating: dump/WVjJWGR1fs/v0QtuVzmVn/
+  inflating: dump/WVjJWGR1fs/v0QtuVzmVn/03-24-2023_12:11_PM.log  
+   creating: dump/WVjJWGR1fs/v0QtuVzmVn/mIbxIlZO2K/
+  inflating: dump/WVjJWGR1fs/v0QtuVzmVn/mIbxIlZO2K/05-18-2023_06:49_PM.log  
+   creating: dump/WVjJWGR1fs/v0QtuVzmVn/mIbxIlZO2K/9TvP1BdFf5/
+   creating: dump/xpFKCwP1PP/
+   creating: dump/xpFKCwP1PP/N0OJlsLENL/
+  inflating: dump/xpFKCwP1PP/N0OJlsLENL/01-21-2023_04:12_AM.log  
+   creating: dump/xpFKCwP1PP/N0OJlsLENL/HYMugAFqgq/
+  inflating: dump/xpFKCwP1PP/N0OJlsLENL/HYMugAFqgq/03-24-2023_12:39_AM.log  
+   creating: dump/xpFKCwP1PP/N0OJlsLENL/HYMugAFqgq/ZOR4P1Tar5/
+   creating: dump/yNGRGRYTLM/
+   creating: dump/yNGRGRYTLM/SDtgq0KuKY/
+  inflating: dump/yNGRGRYTLM/SDtgq0KuKY/02-25-2023_06:06_AM.log  
+   creating: dump/yNGRGRYTLM/SDtgq0KuKY/mCdvkR5mqp/
+  inflating: dump/yNGRGRYTLM/SDtgq0KuKY/mCdvkR5mqp/01-02-2023_03:31_AM.log  
+   creating: dump/yNGRGRYTLM/SDtgq0KuKY/mCdvkR5mqp/EKAt4ceJap/
+   creating: dump/zm94inuZ8j/
+   creating: dump/zm94inuZ8j/ffGn6Z2YBo/
+  inflating: dump/zm94inuZ8j/ffGn6Z2YBo/02-07-2023_10:45_PM.log  
+   creating: dump/zm94inuZ8j/ffGn6Z2YBo/ZQvHqlzLR3/
+  inflating: dump/zm94inuZ8j/ffGn6Z2YBo/ZQvHqlzLR3/06-18-2023_03:07_PM.log  
+   creating: dump/zm94inuZ8j/ffGn6Z2YBo/ZQvHqlzLR3/bc17Ag792q/
+                                                                                                                                 
+┌──(ikktaa㉿Ikktaa)-[~/Downloads/ilovelinux/latihan]
+└─$ ls   
+5bda90afcfd344fa33b8b33580cdbe7b.zip  S3cr3t_f1L3s.zip  S3cr3t_f1L3s.zip.1  dump  runme  runme.log
+                                                                                                                                 
+┌──(ikktaa㉿Ikktaa)-[~/Downloads/ilovelinux/latihan]
+└─$ cd dump                  
+                                                                                                                                 
+┌──(ikktaa㉿Ikktaa)-[~/Downloads/ilovelinux/latihan/dump]
+└─$ ls 
+7PXcZw75Kv  GAZags508D  Iir9DOlIB4  NNmTmwy1C2  TXExu1HD6H  dXK40eZGoT  j9ltdRQIrW  miCNIK2XjV  spWxfw3b4M
+BpiB4Xb0WH  GDP8FcrzsT  LOgPdgCGsG  NftDzEAOtN  UpkwyCmQSo  fWC6i3JXm8  kFV2l8BV3e  mwwzRNNVr4  uuk97mtzup
+DWdwYzlv3i  HLzrYyQlgx  LRh6iwIrve  PSUb7xLiPN  WVjJWGR1fs  gVPQhubGcZ  kcDvNyTGji  opAiFF5WI9  xpFKCwP1PP
+FXe1lvNI3a  Ho36cpL57c  MC0rDKJaDh  RSrtciONeL  WlYCQQSXwZ  gvuDA0AAQr  lByGDkUtPE  qFadfFFcoJ  yNGRGRYTLM
+FXiGk3JunQ  I2HvX3Nnmu  Mz4UwytH6Q  SMt9JB74Q4  czUT5NoIEO  he8vE8Y184  lcl31HI5aY  s78xdIb24B  zm94inuZ8j
+                                                                                                                                 
+┌──(ikktaa㉿Ikktaa)-[~/Downloads/ilovelinux/latihan/dump]
+└─$ find -type f -name "*.log"
+./NftDzEAOtN/GylIjD48vE/05-28-2023_02:46_AM.log
+./UpkwyCmQSo/fjZeUzybdt/JKsVgUZJNb/03-15-2023_03:54_PM.log
+./UpkwyCmQSo/fjZeUzybdt/JKsVgUZJNb/ddZ5Ne7aW0/07-04-2023_11:26_AM.log
+./UpkwyCmQSo/fjZeUzybdt/01-24-2023_02:46_AM.log
+./s78xdIb24B/N20PpNRsX2/05-08-2023_02:56_PM.log
+./qFadfFFcoJ/4UAYHFw5E2/06-09-2023_05:27_PM.log
+./MC0rDKJaDh/zvIVxWX0TR/8AOISBmahv/04-21-2023_08:19_PM.log
+./MC0rDKJaDh/zvIVxWX0TR/8AOISBmahv/Etcph7J0cG/06-10-2023_10:19_AM.log
+./MC0rDKJaDh/zvIVxWX0TR/06-18-2023_02:05_PM.log
+./kFV2l8BV3e/Xar8kRb7Op/01-16-2023_05:06_AM.log
+./kFV2l8BV3e/Xar8kRb7Op/dfhrihBSXC/01-04-2023_02:53_PM.log
+./gvuDA0AAQr/67BzwH3QoC/07-09-2023_10:32_AM.log
+./gvuDA0AAQr/67BzwH3QoC/U3h4N2bb0B/05-30-2023_06:37_PM.log
+./lByGDkUtPE/vIYovvOgx4/06-03-2023_11:54_AM.log
+./lByGDkUtPE/vIYovvOgx4/SCVk4UVioK/An0R4LlWy4/03-09-2023_05:29_AM.log
+./lByGDkUtPE/vIYovvOgx4/SCVk4UVioK/05-29-2023_01:37_AM.log
+./Iir9DOlIB4/UOJhDJx3i0/05-08-2023_05:46_AM.log
+./HLzrYyQlgx/rlfUrzRvAy/01-04-2023_07:16_PM.log
+./GAZags508D/mGhfV4DJaw/U94CanJil8/03-22-2023_01:30_PM.log
+./GAZags508D/mGhfV4DJaw/U94CanJil8/bONr6jEKQg/02-25-2023_07:56_AM.log
+./GAZags508D/mGhfV4DJaw/03-04-2023_06:19_PM.log
+./I2HvX3Nnmu/Bcbn1T7YCS/07-11-2023_10:42_PM.log
+./I2HvX3Nnmu/Bcbn1T7YCS/AVEl49vgtB/05-06-2023_10:40_AM.log
+./FXiGk3JunQ/E3Sv481Zl3/04-06-2023_01:19_AM.log
+./RSrtciONeL/sEAke0L4rk/yLBWrgNtm3/Jy2nqpwtkT/07-15-2023_04:00_PM.log
+./RSrtciONeL/sEAke0L4rk/yLBWrgNtm3/05-28-2023_10:18_PM.log
+./RSrtciONeL/sEAke0L4rk/01-06-2023_04:48_AM.log
+./GDP8FcrzsT/204MyQfX6q/07-06-2023_08:19_AM.log
+./GDP8FcrzsT/204MyQfX6q/OLFD3jlzYs/6CoGdcFk10/07-31-2023_08:27_AM.log
+./GDP8FcrzsT/204MyQfX6q/OLFD3jlzYs/03-22-2023_09:05_PM.log
+./WVjJWGR1fs/v0QtuVzmVn/03-24-2023_12:11_PM.log
+./WVjJWGR1fs/v0QtuVzmVn/mIbxIlZO2K/05-18-2023_06:49_PM.log
+./lcl31HI5aY/VMZcLigYsS/04-06-2023_08:15_PM.log
+./zm94inuZ8j/ffGn6Z2YBo/ZQvHqlzLR3/06-18-2023_03:07_PM.log
+./zm94inuZ8j/ffGn6Z2YBo/02-07-2023_10:45_PM.log
+./j9ltdRQIrW/FTZlNTWGdK/03-10-2023_01:47_AM.log
+./j9ltdRQIrW/FTZlNTWGdK/IKuStrN5sT/F7teCIqpoP/02-15-2023_06:56_AM.log
+./j9ltdRQIrW/FTZlNTWGdK/IKuStrN5sT/05-16-2023_04:06_AM.log
+./spWxfw3b4M/bvsI1sVvnF/1baBOECEPb/06-27-2023_05:37_PM.log
+./spWxfw3b4M/bvsI1sVvnF/1baBOECEPb/TGo3VuMXU8/03-13-2023_10:35_PM.log
+./spWxfw3b4M/bvsI1sVvnF/06-05-2023_05:41_AM.log
+./czUT5NoIEO/ONMaSDVNnN/04-30-2023_09:33_PM.log
+./czUT5NoIEO/ONMaSDVNnN/30yAzy36TT/H4qNvzki0V/01-27-2023_07:16_AM.log
+./czUT5NoIEO/ONMaSDVNnN/30yAzy36TT/01-03-2023_02:05_AM.log
+./NNmTmwy1C2/FiCYANgiAx/02-02-2023_05:19_PM.log
+./xpFKCwP1PP/N0OJlsLENL/01-21-2023_04:12_AM.log
+./xpFKCwP1PP/N0OJlsLENL/HYMugAFqgq/03-24-2023_12:39_AM.log
+./TXExu1HD6H/QKKtBA3Irt/k0svV9WuRO/05-21-2023_03:22_AM.log
+./TXExu1HD6H/QKKtBA3Irt/06-05-2023_03:31_AM.log
+./yNGRGRYTLM/SDtgq0KuKY/02-25-2023_06:06_AM.log
+./yNGRGRYTLM/SDtgq0KuKY/mCdvkR5mqp/01-02-2023_03:31_AM.log
+./gVPQhubGcZ/aBLckD8kq8/FIoxrBQARQ/WGhQP2cr4d/01-09-2023_02:07_AM.log
+./gVPQhubGcZ/aBLckD8kq8/FIoxrBQARQ/06-29-2023_06:25_PM.log
+./gVPQhubGcZ/aBLckD8kq8/01-25-2023_11:09_AM.log
+./DWdwYzlv3i/kzfjdSDZLJ/07-11-2023_11:43_AM.log
+./SMt9JB74Q4/6k5GTBIwxu/07-19-2023_08:33_AM.log
+./SMt9JB74Q4/6k5GTBIwxu/M6eaL2JImV/06-21-2023_05:09_PM.log
+./LOgPdgCGsG/6gPFAE8f83/04-02-2023_08:25_PM.log
+./Mz4UwytH6Q/hn9Equm5k2/w4Wc4Ks2in/1ZAmmLtS7e/04-04-2023_07:29_PM.log
+./Mz4UwytH6Q/hn9Equm5k2/w4Wc4Ks2in/05-25-2023_07:42_AM.log
+./Mz4UwytH6Q/hn9Equm5k2/03-13-2023_12:37_PM.log
+./WlYCQQSXwZ/kK5eqiYUrt/xS7prwTpI8/07-05-2023_04:04_PM.log
+./WlYCQQSXwZ/kK5eqiYUrt/05-22-2023_04:57_PM.log
+./he8vE8Y184/LY2gp6TC2t/07-10-2023_01:15_PM.log
+./kcDvNyTGji/f7l82LOj1X/02-17-2023_03:02_AM.log
+./FXe1lvNI3a/pUCpL2KiIK/07-05-2023_06:14_PM.log
+./FXe1lvNI3a/pUCpL2KiIK/z1VF5KH4xh/01-18-2023_08:32_AM.log
+./FXe1lvNI3a/pUCpL2KiIK/z1VF5KH4xh/FAJR5IJKHe/06-08-2023_11:22_PM.log
+./fWC6i3JXm8/2QgVbGksas/FYnfTc0bO0/9vZV91ULMb/01-06-2023_04:54_AM.log
+./fWC6i3JXm8/2QgVbGksas/FYnfTc0bO0/06-24-2023_05:33_AM.log
+./fWC6i3JXm8/2QgVbGksas/05-09-2023_10:37_AM.log
+./dXK40eZGoT/4aJEyFG21a/02-06-2023_06:18_PM.log
+./7PXcZw75Kv/H78NoiDUOF/DN3cx6SLoF/02-07-2023_11:14_PM.log
+./7PXcZw75Kv/H78NoiDUOF/06-23-2023_10:57_PM.log
+./opAiFF5WI9/C9bRpMPFOL/2ThnKXBZ0P/SE6X0nN37k/07-27-2023_04:11_PM.log
+./opAiFF5WI9/C9bRpMPFOL/2ThnKXBZ0P/04-18-2023_03:54_AM.log
+./opAiFF5WI9/C9bRpMPFOL/05-21-2023_04:36_AM.log
+./miCNIK2XjV/ezVQsmPJiS/qhBCGoUWu4/02-18-2023_05:25_AM.log
+./miCNIK2XjV/ezVQsmPJiS/qhBCGoUWu4/MufrGD2H32/04-06-2023_11:54_AM.log
+./miCNIK2XjV/ezVQsmPJiS/07-02-2023_11:38_PM.log
+./BpiB4Xb0WH/ZhBG7nYMPs/01-13-2023_02:23_AM.log
+./BpiB4Xb0WH/ZhBG7nYMPs/C9FTgAnC6o/05-02-2023_03:07_AM.log
+./BpiB4Xb0WH/ZhBG7nYMPs/C9FTgAnC6o/dmpaTNflIp/07-28-2023_12:29_AM.log
+./mwwzRNNVr4/Bi2K8241EF/06-30-2023_01:43_AM.log
+./PSUb7xLiPN/uvDLJeagjF/04-08-2023_05:16_PM.log
+./PSUb7xLiPN/uvDLJeagjF/OozbnsrnTQ/05-21-2023_06:11_AM.log
+./PSUb7xLiPN/uvDLJeagjF/OozbnsrnTQ/fKG3VhPpzq/07-03-2023_07:56_AM.log
+./Ho36cpL57c/KQVPGiY27Z/eiBmLC1v6o/06-13-2023_03:29_PM.log
+./Ho36cpL57c/KQVPGiY27Z/05-26-2023_10:18_AM.log
+./LRh6iwIrve/EcIMAf4oW7/04-30-2023_10:11_AM.log
+./LRh6iwIrve/EcIMAf4oW7/zlCLNc9Ycy/07-25-2023_01:33_PM.log
+./LRh6iwIrve/EcIMAf4oW7/zlCLNc9Ycy/d5uk4Rq6lZ/01-13-2023_05:47_AM.log
+./uuk97mtzup/v5KfBK7ZMX/03-14-2023_12:19_PM.log
+                                                                                                                                 
+┌──(ikktaa㉿Ikktaa)-[~/Downloads/ilovelinux/latihan/dump]
+└─$ find -type f -name "*.log" | cut -d '/' -f -1
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+                                                                                                                                 
+┌──(ikktaa㉿Ikktaa)-[~/Downloads/ilovelinux/latihan/dump]
+└─$ ^[[200~echo "field1 field2 field3 field4" | cut -d ' ' -f -1
+zsh: bad pattern: ^[[200~echo
+                                                                                                                                 
+┌──(ikktaa㉿Ikktaa)-[~/Downloads/ilovelinux/latihan/dump]
+└─$ echo "field1 field2 field3 field4" | cut -d ' ' -f -1 
+
+field1
+                                                                                                                                 
+┌──(ikktaa㉿Ikktaa)-[~/Downloads/ilovelinux/latihan/dump]
+└─$ find -type f -name "*.log" | cut -d '/' -f -1 | rev         
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+                                                                                                                                 
+┌──(ikktaa㉿Ikktaa)-[~/Downloads/ilovelinux/latihan/dump]
+└─$ find -type f -name "*.log" |rev| cut -d '/' -f -1  
+gol.MA_64:20_3202-82-50
+gol.MP_45:30_3202-51-30
+gol.MA_62:11_3202-40-70
+gol.MA_64:20_3202-42-10
+gol.MP_65:20_3202-80-50
+gol.MP_72:50_3202-90-60
+gol.MP_91:80_3202-12-40
+gol.MA_91:01_3202-01-60
+gol.MP_50:20_3202-81-60
+gol.MA_60:50_3202-61-10
+gol.MP_35:20_3202-40-10
+gol.MA_23:01_3202-90-70
+gol.MP_73:60_3202-03-50
+gol.MA_45:11_3202-30-60
+gol.MA_92:50_3202-90-30
+gol.MA_73:10_3202-92-50
+gol.MA_64:50_3202-80-50
+gol.MP_61:70_3202-40-10
+gol.MP_03:10_3202-22-30
+gol.MA_65:70_3202-52-20
+gol.MP_91:60_3202-40-30
+gol.MP_24:01_3202-11-70
+gol.MA_04:01_3202-60-50
+gol.MA_91:10_3202-60-40
+gol.MP_00:40_3202-51-70
+gol.MP_81:01_3202-82-50
+gol.MA_84:40_3202-60-10
+gol.MA_91:80_3202-60-70
+gol.MA_72:80_3202-13-70
+gol.MP_50:90_3202-22-30
+gol.MP_11:21_3202-42-30
+gol.MP_94:60_3202-81-50
+gol.MP_51:80_3202-60-40
+gol.MP_70:30_3202-81-60
+gol.MP_54:01_3202-70-20
+gol.MA_74:10_3202-01-30
+gol.MA_65:60_3202-51-20
+gol.MA_60:40_3202-61-50
+gol.MP_73:50_3202-72-60
+gol.MP_53:01_3202-31-30
+gol.MA_14:50_3202-50-60
+gol.MP_33:90_3202-03-40
+gol.MA_61:70_3202-72-10
+gol.MA_50:20_3202-30-10
+gol.MP_91:50_3202-20-20
+gol.MA_21:40_3202-12-10
+gol.MA_93:21_3202-42-30
+gol.MA_22:30_3202-12-50
+gol.MA_13:30_3202-50-60
+gol.MA_60:60_3202-52-20
+gol.MA_13:30_3202-20-10
+gol.MA_70:20_3202-90-10
+gol.MP_52:60_3202-92-60
+gol.MA_90:11_3202-52-10
+gol.MA_34:11_3202-11-70
+gol.MA_33:80_3202-91-70
+gol.MP_90:50_3202-12-60
+gol.MP_52:80_3202-20-40
+gol.MP_92:70_3202-40-40
+gol.MA_24:70_3202-52-50
+gol.MP_73:21_3202-31-30
+gol.MP_40:40_3202-50-70
+gol.MP_75:40_3202-22-50
+gol.MP_51:10_3202-01-70
+gol.MA_20:30_3202-71-20
+gol.MP_41:60_3202-50-70
+gol.MA_23:80_3202-81-10
+gol.MP_22:11_3202-80-60
+gol.MA_45:40_3202-60-10
+gol.MA_33:50_3202-42-60
+gol.MA_73:01_3202-90-50
+gol.MP_81:60_3202-60-20
+gol.MP_41:11_3202-70-20
+gol.MP_75:01_3202-32-60
+gol.MP_11:40_3202-72-70
+gol.MA_45:30_3202-81-40
+gol.MA_63:40_3202-12-50
+gol.MA_52:50_3202-81-20
+gol.MA_45:11_3202-60-40
+gol.MP_83:11_3202-20-70
+gol.MA_32:20_3202-31-10
+gol.MA_70:30_3202-20-50
+gol.MA_92:21_3202-82-70
+gol.MA_34:10_3202-03-60
+gol.MP_61:50_3202-80-40
+gol.MA_11:60_3202-12-50
+gol.MA_65:70_3202-30-70
+gol.MP_92:30_3202-31-60
+gol.MA_81:01_3202-62-50
+gol.MA_11:01_3202-03-40
+gol.MP_33:10_3202-52-70
+gol.MA_74:50_3202-31-10
+gol.MP_91:21_3202-41-30
+                                                                                                                                 
+┌──(ikktaa㉿Ikktaa)-[~/Downloads/ilovelinux/latihan/dump]
+└─$ find -type f -name "*.log" |rev| cut -d '/' -f -1 | rev
+05-28-2023_02:46_AM.log
+03-15-2023_03:54_PM.log
+07-04-2023_11:26_AM.log
+01-24-2023_02:46_AM.log
+05-08-2023_02:56_PM.log
+06-09-2023_05:27_PM.log
+04-21-2023_08:19_PM.log
+06-10-2023_10:19_AM.log
+06-18-2023_02:05_PM.log
+01-16-2023_05:06_AM.log
+01-04-2023_02:53_PM.log
+07-09-2023_10:32_AM.log
+05-30-2023_06:37_PM.log
+06-03-2023_11:54_AM.log
+03-09-2023_05:29_AM.log
+05-29-2023_01:37_AM.log
+05-08-2023_05:46_AM.log
+01-04-2023_07:16_PM.log
+03-22-2023_01:30_PM.log
+02-25-2023_07:56_AM.log
+03-04-2023_06:19_PM.log
+07-11-2023_10:42_PM.log
+05-06-2023_10:40_AM.log
+04-06-2023_01:19_AM.log
+07-15-2023_04:00_PM.log
+05-28-2023_10:18_PM.log
+01-06-2023_04:48_AM.log
+07-06-2023_08:19_AM.log
+07-31-2023_08:27_AM.log
+03-22-2023_09:05_PM.log
+03-24-2023_12:11_PM.log
+05-18-2023_06:49_PM.log
+04-06-2023_08:15_PM.log
+06-18-2023_03:07_PM.log
+02-07-2023_10:45_PM.log
+03-10-2023_01:47_AM.log
+02-15-2023_06:56_AM.log
+05-16-2023_04:06_AM.log
+06-27-2023_05:37_PM.log
+03-13-2023_10:35_PM.log
+06-05-2023_05:41_AM.log
+04-30-2023_09:33_PM.log
+01-27-2023_07:16_AM.log
+01-03-2023_02:05_AM.log
+02-02-2023_05:19_PM.log
+01-21-2023_04:12_AM.log
+03-24-2023_12:39_AM.log
+05-21-2023_03:22_AM.log
+06-05-2023_03:31_AM.log
+02-25-2023_06:06_AM.log
+01-02-2023_03:31_AM.log
+01-09-2023_02:07_AM.log
+06-29-2023_06:25_PM.log
+01-25-2023_11:09_AM.log
+07-11-2023_11:43_AM.log
+07-19-2023_08:33_AM.log
+06-21-2023_05:09_PM.log
+04-02-2023_08:25_PM.log
+04-04-2023_07:29_PM.log
+05-25-2023_07:42_AM.log
+03-13-2023_12:37_PM.log
+07-05-2023_04:04_PM.log
+05-22-2023_04:57_PM.log
+07-10-2023_01:15_PM.log
+02-17-2023_03:02_AM.log
+07-05-2023_06:14_PM.log
+01-18-2023_08:32_AM.log
+06-08-2023_11:22_PM.log
+01-06-2023_04:54_AM.log
+06-24-2023_05:33_AM.log
+05-09-2023_10:37_AM.log
+02-06-2023_06:18_PM.log
+02-07-2023_11:14_PM.log
+06-23-2023_10:57_PM.log
+07-27-2023_04:11_PM.log
+04-18-2023_03:54_AM.log
+05-21-2023_04:36_AM.log
+02-18-2023_05:25_AM.log
+04-06-2023_11:54_AM.log
+07-02-2023_11:38_PM.log
+01-13-2023_02:23_AM.log
+05-02-2023_03:07_AM.log
+07-28-2023_12:29_AM.log
+06-30-2023_01:43_AM.log
+04-08-2023_05:16_PM.log
+05-21-2023_06:11_AM.log
+07-03-2023_07:56_AM.log
+06-13-2023_03:29_PM.log
+05-26-2023_10:18_AM.log
+04-30-2023_10:11_AM.log
+07-25-2023_01:33_PM.log
+01-13-2023_05:47_AM.log
+03-14-2023_12:19_PM.log
+                                                                                                                                 
+┌──(ikktaa㉿Ikktaa)-[~/Downloads/ilovelinux/latihan/dump]
+└─$ find -type f -name "*.log" | rev | cut -d '/' -f -1 | rev | cut -d '-' 
+cut: you must specify a list of bytes, characters, or fields
+Try 'cut --help' for more information.
+                                                                                                                                 
+┌──(ikktaa㉿Ikktaa)-[~/Downloads/ilovelinux/latihan/dump]
+└─$ find -type f -name "*.log" | rev | cut -d '/' -f -1 | rev | cut -d '-' -f 1
+05
+03
+07
+01
+05
+06
+04
+06
+06
+01
+01
+07
+05
+06
+03
+05
+05
+01
+03
+02
+03
+07
+05
+04
+07
+05
+01
+07
+07
+03
+03
+05
+04
+06
+02
+03
+02
+05
+06
+03
+06
+04
+01
+01
+02
+01
+03
+05
+06
+02
+01
+01
+06
+01
+07
+07
+06
+04
+04
+05
+03
+07
+05
+07
+02
+07
+01
+06
+01
+06
+05
+02
+02
+06
+07
+04
+05
+02
+04
+07
+01
+05
+07
+06
+04
+05
+07
+06
+05
+04
+07
+01
+03
+                                                                                                                                 
+┌──(ikktaa㉿Ikktaa)-[~/Downloads/ilovelinux/latihan/dump]
+└─$ find -type f -name "*.log" | rev | cut -d '/' -f -1 | rev                  
+05-28-2023_02:46_AM.log
+03-15-2023_03:54_PM.log
+07-04-2023_11:26_AM.log
+01-24-2023_02:46_AM.log
+05-08-2023_02:56_PM.log
+06-09-2023_05:27_PM.log
+04-21-2023_08:19_PM.log
+06-10-2023_10:19_AM.log
+06-18-2023_02:05_PM.log
+01-16-2023_05:06_AM.log
+01-04-2023_02:53_PM.log
+07-09-2023_10:32_AM.log
+05-30-2023_06:37_PM.log
+06-03-2023_11:54_AM.log
+03-09-2023_05:29_AM.log
+05-29-2023_01:37_AM.log
+05-08-2023_05:46_AM.log
+01-04-2023_07:16_PM.log
+03-22-2023_01:30_PM.log
+02-25-2023_07:56_AM.log
+03-04-2023_06:19_PM.log
+07-11-2023_10:42_PM.log
+05-06-2023_10:40_AM.log
+04-06-2023_01:19_AM.log
+07-15-2023_04:00_PM.log
+05-28-2023_10:18_PM.log
+01-06-2023_04:48_AM.log
+07-06-2023_08:19_AM.log
+07-31-2023_08:27_AM.log
+03-22-2023_09:05_PM.log
+03-24-2023_12:11_PM.log
+05-18-2023_06:49_PM.log
+04-06-2023_08:15_PM.log
+06-18-2023_03:07_PM.log
+02-07-2023_10:45_PM.log
+03-10-2023_01:47_AM.log
+02-15-2023_06:56_AM.log
+05-16-2023_04:06_AM.log
+06-27-2023_05:37_PM.log
+03-13-2023_10:35_PM.log
+06-05-2023_05:41_AM.log
+04-30-2023_09:33_PM.log
+01-27-2023_07:16_AM.log
+01-03-2023_02:05_AM.log
+02-02-2023_05:19_PM.log
+01-21-2023_04:12_AM.log
+03-24-2023_12:39_AM.log
+05-21-2023_03:22_AM.log
+06-05-2023_03:31_AM.log
+02-25-2023_06:06_AM.log
+01-02-2023_03:31_AM.log
+01-09-2023_02:07_AM.log
+06-29-2023_06:25_PM.log
+01-25-2023_11:09_AM.log
+07-11-2023_11:43_AM.log
+07-19-2023_08:33_AM.log
+06-21-2023_05:09_PM.log
+04-02-2023_08:25_PM.log
+04-04-2023_07:29_PM.log
+05-25-2023_07:42_AM.log
+03-13-2023_12:37_PM.log
+07-05-2023_04:04_PM.log
+05-22-2023_04:57_PM.log
+07-10-2023_01:15_PM.log
+02-17-2023_03:02_AM.log
+07-05-2023_06:14_PM.log
+01-18-2023_08:32_AM.log
+06-08-2023_11:22_PM.log
+01-06-2023_04:54_AM.log
+06-24-2023_05:33_AM.log
+05-09-2023_10:37_AM.log
+02-06-2023_06:18_PM.log
+02-07-2023_11:14_PM.log
+06-23-2023_10:57_PM.log
+07-27-2023_04:11_PM.log
+04-18-2023_03:54_AM.log
+05-21-2023_04:36_AM.log
+02-18-2023_05:25_AM.log
+04-06-2023_11:54_AM.log
+07-02-2023_11:38_PM.log
+01-13-2023_02:23_AM.log
+05-02-2023_03:07_AM.log
+07-28-2023_12:29_AM.log
+06-30-2023_01:43_AM.log
+04-08-2023_05:16_PM.log
+05-21-2023_06:11_AM.log
+07-03-2023_07:56_AM.log
+06-13-2023_03:29_PM.log
+05-26-2023_10:18_AM.log
+04-30-2023_10:11_AM.log
+07-25-2023_01:33_PM.log
+01-13-2023_05:47_AM.log
+03-14-2023_12:19_PM.log
+                                                                                                                                 
+┌──(ikktaa㉿Ikktaa)-[~/Downloads/ilovelinux/latihan/dump]
+└─$ find -type f -name "*.log" | rev | cut -d '/' -f -1 | rev | sort           
+01-02-2023_03:31_AM.log
+01-03-2023_02:05_AM.log
+01-04-2023_02:53_PM.log
+01-04-2023_07:16_PM.log
+01-06-2023_04:48_AM.log
+01-06-2023_04:54_AM.log
+01-09-2023_02:07_AM.log
+01-13-2023_02:23_AM.log
+01-13-2023_05:47_AM.log
+01-16-2023_05:06_AM.log
+01-18-2023_08:32_AM.log
+01-21-2023_04:12_AM.log
+01-24-2023_02:46_AM.log
+01-25-2023_11:09_AM.log
+01-27-2023_07:16_AM.log
+02-02-2023_05:19_PM.log
+02-06-2023_06:18_PM.log
+02-07-2023_10:45_PM.log
+02-07-2023_11:14_PM.log
+02-15-2023_06:56_AM.log
+02-17-2023_03:02_AM.log
+02-18-2023_05:25_AM.log
+02-25-2023_06:06_AM.log
+02-25-2023_07:56_AM.log
+03-04-2023_06:19_PM.log
+03-09-2023_05:29_AM.log
+03-10-2023_01:47_AM.log
+03-13-2023_10:35_PM.log
+03-13-2023_12:37_PM.log
+03-14-2023_12:19_PM.log
+03-15-2023_03:54_PM.log
+03-22-2023_01:30_PM.log
+03-22-2023_09:05_PM.log
+03-24-2023_12:11_PM.log
+03-24-2023_12:39_AM.log
+04-02-2023_08:25_PM.log
+04-04-2023_07:29_PM.log
+04-06-2023_01:19_AM.log
+04-06-2023_08:15_PM.log
+04-06-2023_11:54_AM.log
+04-08-2023_05:16_PM.log
+04-18-2023_03:54_AM.log
+04-21-2023_08:19_PM.log
+04-30-2023_09:33_PM.log
+04-30-2023_10:11_AM.log
+05-02-2023_03:07_AM.log
+05-06-2023_10:40_AM.log
+05-08-2023_02:56_PM.log
+05-08-2023_05:46_AM.log
+05-09-2023_10:37_AM.log
+05-16-2023_04:06_AM.log
+05-18-2023_06:49_PM.log
+05-21-2023_03:22_AM.log
+05-21-2023_04:36_AM.log
+05-21-2023_06:11_AM.log
+05-22-2023_04:57_PM.log
+05-25-2023_07:42_AM.log
+05-26-2023_10:18_AM.log
+05-28-2023_02:46_AM.log
+05-28-2023_10:18_PM.log
+05-29-2023_01:37_AM.log
+05-30-2023_06:37_PM.log
+06-03-2023_11:54_AM.log
+06-05-2023_03:31_AM.log
+06-05-2023_05:41_AM.log
+06-08-2023_11:22_PM.log
+06-09-2023_05:27_PM.log
+06-10-2023_10:19_AM.log
+06-13-2023_03:29_PM.log
+06-18-2023_02:05_PM.log
+06-18-2023_03:07_PM.log
+06-21-2023_05:09_PM.log
+06-23-2023_10:57_PM.log
+06-24-2023_05:33_AM.log
+06-27-2023_05:37_PM.log
+06-29-2023_06:25_PM.log
+06-30-2023_01:43_AM.log
+07-02-2023_11:38_PM.log
+07-03-2023_07:56_AM.log
+07-04-2023_11:26_AM.log
+07-05-2023_04:04_PM.log
+07-05-2023_06:14_PM.log
+07-06-2023_08:19_AM.log
+07-09-2023_10:32_AM.log
+07-10-2023_01:15_PM.log
+07-11-2023_10:42_PM.log
+07-11-2023_11:43_AM.log
+07-15-2023_04:00_PM.log
+07-19-2023_08:33_AM.log
+07-25-2023_01:33_PM.log
+07-27-2023_04:11_PM.log
+07-28-2023_12:29_AM.log
+07-31-2023_08:27_AM.log
+                                                                                                                                 
+┌──(ikktaa㉿Ikktaa)-[~/Downloads/ilovelinux/latihan/dump]
+└─$                                                                 
+                                                                                                                                 
+┌──(ikktaa㉿Ikktaa)-[~/Downloads/ilovelinux/latihan/dump]
+└─$ find -type f -name "*.log" | rev | cut -d '/' -f -1 | rev | sort | head -n 1 | xargs cat 
+cat: '01-02-2023_03:31_AM.log': No such file or directory
+                                                                                                                                 
+┌──(ikktaa㉿Ikktaa)-[~/Downloads/ilovelinux/latihan/dump]
+└─$ 
+                                                                                                                                 
+┌──(ikktaa㉿Ikktaa)-[~/Downloads/ilovelinux/latihan/dump]
+└─$ ^[[200~oldest_log_file=$(find -type f -name "*.log" | rev | cut -d '/' -f -1 | rev | sort | head -n 1)
+zsh: bad pattern: ^[[200~oldest_log_file=01-02-2023_03:31_AM.log
+                                                                                                                                 
+┌──(ikktaa㉿Ikktaa)-[~/Downloads/ilovelinux/latihan/dump]
+└─$ cat "$oldest_log_file"
+cat: '': No such file or directory
+                                                                                                                                 
+┌──(ikktaa㉿Ikktaa)-[~/Downloads/ilovelinux/latihan/dump]
+└─$ oldest_log_file=$(find -type f -name "*.log" | rev | cut -d '/' -f -1 | rev | sort | head -n 1) | cat oldest_log_file
+cat: oldest_log_file: No such file or directory
+                                                                                                                                 
+┌──(ikktaa㉿Ikktaa)-[~/Downloads/ilovelinux/latihan/dump]
+└─$ oldest_log_file=$(find -type f -name "*.log" | rev | cut -d '/' -f -1 | rev | sort | head -n 1) | cat "$oldest_log_file"
+cat: '': No such file or directory
+                                                                                                                                 
+┌──(ikktaa㉿Ikktaa)-[~/Downloads/ilovelinux/latihan/dump]
+└─$ find -type f -name "*.log" | rev | cut -d '/' -f -1 | rev | sort | head -n 1                                            
+01-02-2023_03:31_AM.log
+                                                                                                                                 
+┌──(ikktaa㉿Ikktaa)-[~/Downloads/ilovelinux/latihan/dump]
+└─$ find -type f -name "find -type f -name "*.log" | rev | cut -d '/' -f -1 | rev | sort | head -n 1"
+find: warning: ‘-name’ matches against basenames only, but the given pattern contains a directory separator (‘/’), thus the expression will evaluate to false all the time.  Did you mean ‘-wholename’?
+                                                                                                                                 
+┌──(ikktaa㉿Ikktaa)-[~/Downloads/ilovelinux/latihan/dump]
+└─$ file_name=$(find -type f -name "*.log" | rev | cut -d '/' -f -1 | rev | sort | head -n 1) | find -type f -name "$file_name" 
+                                                                                                                    
+┌──(ikktaa㉿Ikktaa)-[~/Downloads/ilovelinux/latihan/dump]
+└─$ find -type f -name "*.log" | rev | cut -d '/' -f -1 | rev | sort | head -n 1
+01-02-2023_03:31_AM.log
+                                                                                                                    
+┌──(ikktaa㉿Ikktaa)-[~/Downloads/ilovelinux/latihan/dump]
+└─$ find -type f -name "*.log" | rev | cut -d '/' -f -1 | rev | sort | head -n 1
+                                                                                                                    
+┌──(ikktaa㉿Ikktaa)-[~/Downloads/ilovelinux/latihan/dump]
+└─$ find -type f -name "01-02-2023_03:31_AM.log" | xargs cat                                           
+GET /Ivasx2wwHy HTTP/1.1
+Host: 93.35.247.132:62267
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:89.0) Gecko/20100101 Firefox/89.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+    
+    
+HTTP/1.1 404 Not Found
+Server: Apache/2.4.29 (Ubuntu)
+Pragma: no-cache
+Cache-Control: no-cache
+Content-Type: text/html
+Content-Length: 0
+    
+                                                                                                                    
+┌──(ikktaa㉿Ikktaa)-[~/Downloads/ilovelinux/latihan/dump]
+└─$ file_name=$(find -type f -name "*.log" | rev | cut -d '/' -f -1 | rev | sort | head -n 1) / find -type f -name "
+zsh: permission denied: /
+                                                                                                                    
+┌──(ikktaa㉿Ikktaa)-[~/Downloads/ilovelinux/latihan/dump]
+└─$ file_name=$(find -type f -name "*.log" | rev | cut -d '/' -f -1 | rev | sort | head -n 1) | xargs -I {} find -ty}" | xargs cat
+                                                                                                                    
+┌──(ikktaa㉿Ikktaa)-[~/Downloads/ilovelinux/latihan/dump]
+└─$ file_name=$(find -type f -name "*.log" | rev | cut -d '/' -f -1 | rev | sort | head -n 1) | xargs -I {} find -ty}"            
+                                                                                                                    
+┌──(ikktaa㉿Ikktaa)-[~/Downloads/ilovelinux/latihan/dump]
+└─$ find -type f -name "*.log" | rev | cut -d '/' -f -1 | rev | sort | head -n 1 | xargs -I {} find -type f -name "{
+./yNGRGRYTLM/SDtgq0KuKY/mCdvkR5mqp/01-02-2023_03:31_AM.log
+                                                                                                                    
+┌──(ikktaa㉿Ikktaa)-[~/Downloads/ilovelinux/latihan/dump]
+└─$ find -type f -name "*.log" | rev | cut -d '/' -f -1 | rev | sort | head -n 1 | xargs -I {} find -type f -name "{t
+GET /Ivasx2wwHy HTTP/1.1
+Host: 93.35.247.132:62267
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:89.0) Gecko/20100101 Firefox/89.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+    
+    
+HTTP/1.1 404 Not Found
+Server: Apache/2.4.29 (Ubuntu)
+Pragma: no-cache
+Cache-Control: no-cache
+Content-Type: text/html
+Content-Length: 0
+    
+                                                                                                                    
+┌──(ikktaa㉿Ikktaa)-[~/Downloads/ilovelinux/latihan/dump]
+└─$ 
