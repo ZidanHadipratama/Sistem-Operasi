@@ -43,15 +43,13 @@ cd NAMA-FOLDER
 Sekarang, Anda siap untuk terhubung ke server OpenVPN ITS. Misalnya, untuk terhubung ke "Server 1" dari OpenVPN ITS, jalankan perintah berikut:
 
 ```bash
-sudo openvpn nama-file-konfigurasi.ovpn
+sudo openvpn its-onefile-1.ovpn
 ```
-
-Gantilah `nama-file-konfigurasi.ovpn` dengan nama file konfigurasi yang sesuai.
 
 Setelah menjalankan perintah ini, OpenVPN akan meminta Anda untuk memasukkan kredensial (seperti username dan password jika diperlukan). Setelah koneksi berhasil, Anda akan terhubung ke jaringan VPN.
 
 Selamat! Anda telah berhasil terhubung ke server OpenVPN ITS melalui koneksi VPN yang aman. 🎉
 
-_**Catatan:** Pastikan Anda mengganti placeholder seperti `{link-download}`, `{nama-file}`, `NAMA-FOLDER`, dan `nama-file-konfigurasi.ovpn` dengan nilai yang sesuai sesuai dengan situasi Anda._
+_**Catatan:** Pastikan Anda mengganti placeholder seperti `{link-download}`, `{nama-file}`, dan `NAMA-FOLDER` dengan nilai yang sesuai sesuai dengan situasi Anda._
 
 Terima kasih telah menggunakan panduan ini. Semoga berhasil! 🚀
