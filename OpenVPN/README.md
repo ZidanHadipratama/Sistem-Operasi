@@ -46,9 +46,9 @@ Sekarang, Anda siap untuk terhubung ke server OpenVPN ITS. Misalnya, untuk terhu
 sudo openvpn its-onefile-1.ovpn
 ```
 
-Setelah menjalankan perintah ini, OpenVPN akan meminta Anda untuk memasukkan kredensial (seperti username dan password jika diperlukan). Setelah koneksi berhasil, Anda akan terhubung ke jaringan VPN.
+Setelah menjalankan perintah ini, Anda akan terhubung ke jaringan VPN.
 
-Selamat! Anda telah berhasil terhubung ke server OpenVPN ITS melalui koneksi VPN yang aman. 🎉
+Selamat! Anda telah berhasil terhubung ke server OpenVPN ITS. 🎉
 
 _**Catatan:** Pastikan Anda mengganti placeholder seperti `{link-download}`, `{nama-file}`, dan `NAMA-FOLDER` dengan nilai yang sesuai sesuai dengan situasi Anda._
 
