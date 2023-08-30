@@ -50,4 +50,25 @@ sudo mkdir latihan | pwd {} | sudo unzip 5bda90afcfd344fa33b8b33580cdbe7b.zip -d
 cd latihan ; ls -a
 ```
 
-## 6. Jalankan runme 
+## 6. Jalankan runme dan Simpan Dalam runme.log
+
+```bash
+sudo sh -c './runme >> runme.log'
+```
+
+## 7. Jalankan .daemon
+```bash
+./.daemon
+```
+
+## 8. Cek Semua Program yang Berjalan
+```bash
+ps aux
+```
+
+## 9. Matikan .daemon dan Cek Program yang Berjalan
+```bash
+kill PID ; ps aux
+```
+
+## 10. Buat User jagosisop
