@@ -80,7 +80,10 @@ sudo adduser jagosisop
 sudo usermod -aG sudo jagosisop
 ```
 
-## 13. 
+## 13. Cek Group Sudo
+```bash
+sudo getent group sudo
+```
 
 ## 14. Menjadi User Baru dan Membuat Directory "analysis"
 ```bash
@@ -104,3 +107,5 @@ sudo unzip S3cr3t_f1L3s.zip
 ```bash
 cd dump | find -type f  -name "*.log" | rev | cut -d "/" -f 1 | rev | head -n 1
 ```
+
+## 18
