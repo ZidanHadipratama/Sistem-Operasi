@@ -21,37 +21,31 @@ curl http://10.199.16.188:7331/5bda90afcfd344fa33b8b33580cdbe7b.zip
 # Solusi
 
 ## 1. Buat directory
-
 ```bash
 mkdir ilovelinux
 ```
 
 ## 2. Pindah dan Download file.txt
-
 ```bash
 wget -P /home/ikktaa/ilovelinux http://10.199.16.188:7331/file.txt | cd ilovelinux
 ```
 
 ## 3. Download file baru lagi
-
 ```bash
 cat file.txt | xargs -I {} wget http://10.199.16.188:7331/{}
 ```
 
 ## 4. Unzip File yang Baru di Download & Mengouput kan ke Folder
-
 ```bash
 sudo mkdir latihan | pwd {} | sudo unzip 5bda90afcfd344fa33b8b33580cdbe7b.zip -d {}/latihan
 ```
 
 ## 5. Berpindah dan Melihat Isi Folder
-
 ```bash
 cd latihan ; ls -a
 ```
 
 ## 6. Jalankan runme dan Simpan Dalam runme.log
-
 ```bash
 sudo sh -c './runme >> runme.log'
 ```
@@ -71,4 +65,24 @@ ps aux
 kill PID ; ps aux
 ```
 
-## 10. Buat User jagosisop
+## 10. Cek Semua User
+```bash
+cut -d ":" -f 1 /etc/passwd
+```
+
+## 11. Buat User jagosisop
+```bash
+sudo adduser jagosisop
+```
+
+## 12. Masukkan jagosisop ke sudoers group
+```bash
+sudo usermod -aG sudo jagosisop
+```
+
+## 13. Menjadi User Baru dan Membuat Directory "analysis"
+```bash
+sudo su - jagosisop -c "mkdir analysis"
+```
+
+## 14. 
