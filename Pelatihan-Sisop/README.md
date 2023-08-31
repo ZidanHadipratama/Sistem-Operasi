@@ -80,9 +80,27 @@ sudo adduser jagosisop
 sudo usermod -aG sudo jagosisop
 ```
 
-## 13. Menjadi User Baru dan Membuat Directory "analysis"
+## 13. 
+
+## 14. Menjadi User Baru dan Membuat Directory "analysis"
 ```bash
-sudo su - jagosisop -c "mkdir analysis"
+sudo su - jagosisop -c "mkdir analysis" ; sudo -i -u jagosisop
 ```
 
-## 14. 
+## 15. Ganti User Lama dan Pindah Directory ke Latihan
+```bash
+exit
+```
+```bash
+cd /ilovelinux/latihan
+```
+
+## 16. Unzip S3cr3t_f1L3s.zip
+```bash
+sudo unzip S3cr3t_f1L3s.zip
+```
+
+## 17. Di List Semua File yang Berakhiran .log dan Mengambil log yang Pertama
+```bash
+cd dump | find -type f  -name "*.log" | rev | cut -d "/" -f 1 | rev | head -n 1
+```
