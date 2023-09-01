@@ -103,9 +103,30 @@ cd /ilovelinux/latihan
 sudo unzip S3cr3t_f1L3s.zip
 ```
 
-## 17. Di List Semua File yang Berakhiran .log dan Mengambil log yang Pertama
+## 17. Di List Semua File yang Berakhiran ".log" dan Mengambil log yang Pertama dan Menyimpan File Tersebut di http.txt 
 ```bash
-cd dump | find -type f  -name "*.log" | rev | cut -d "/" -f 1 | rev | head -n 1
+cd dump | find -type f  -name "*.log" | rev | cut -d "/" -f 1 | rev | sort | head -n 1 | xargs -I {} find -type f -name {} | xargs -I {} sudo sh -c "cat {} >> "$(dirname {})/http.txt""
 ```
 
-## 18
+## 18. Copy Semua File yang Memiliki kata "2023" dan Berakhiran ".log" ke Folder "analysis" di User jagosisop
+```bash
+cd dump | find -type f  -name "*2023*.log" | xargs -I {} sudo sh -c "sudo su ; cp {} /home/jagosisop/analysis"
+```
+
+## 19. Berpindah ke jagosisop dan Ke Folder "analysis"
+```bash
+sudo -i -u jagosisop
+```
+```bash
+cd analysis
+```
+
+## 20. Menghitung Berapa Banyak 404 dan Menyimpannya dalam request.txt
+```bash
+ ls | xargs -I {} grep -o "404" {} | wc -l | xargs -I {} sudo sh -c 'echo "Jumlah 404 : {}" >> request.txt'
+```
+
+## 21. Menghitung Berapa Banyak 200 dan Menyimpannya dalam request.txt
+```bash
+ls | xargs -I {} grep -o "200" {} | wc -l | xargs -I {} sudo sh -c 'echo "Jumlah 200 : {}" >> request.txt'
+```
