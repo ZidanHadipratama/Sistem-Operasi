@@ -75,7 +75,7 @@ cat file.txt | xargs -I {} wget http://10.199.16.188:7331/{}
 
 ### 4. Unzip File yang Baru di Download & Mengouput kan ke Folder
 ```bash
-sudo mkdir latihan | pwd {} | sudo unzip 5bda90afcfd344fa33b8b33580cdbe7b.zip -d {}/latihan
+sudo mkdir latihan | pwd | xargs -I {} sudo unzip 5bda90afcfd344fa33b8b33580cdbe7b.zip -d {}/latihan
 ```
 
 ### 5. Berpindah dan Melihat Isi Folder
